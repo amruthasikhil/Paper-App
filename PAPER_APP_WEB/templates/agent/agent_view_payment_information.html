@@ -1,0 +1,39 @@
+{% extends "index_agent.html" %}
+{%  block body %}
+
+    <div> <h3 class="mt-4"> Payment Information </h3> </div> <br>
+
+<form action="/agent_view_payment_information_search" method="post" enctype="multipart/form-data" name="form1" id="form1">
+
+    <table>
+        <tr>
+            <td>
+                <select class="form-control" name="cont">
+                    <option> Magazine </option>
+                    <option> Newspaper </option>
+                    <option> Classified </option> </select>
+            </td>
+            <td> <input class="btn btn-primary" type="submit" value="search"> </td>
+        </tr>
+    </table>
+
+    <table class="table table-bordered">
+        <tr>
+            <th> Sl_No </th>
+            <th> Subscriber Name </th>
+            <th> Paid Amount </th>
+            <th> Paid Date </th>
+        </tr>
+
+        {% for i in data %}
+           <tr>
+                <td> {{ loop.index }}</td>
+                <td>&nbsp;{{ i["user_name"]}}</td>
+                <td>&nbsp;{{ i["amount"]}}</td>
+                <td>&nbsp;{{ i["date"]}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+</form>
+{% endblock %}

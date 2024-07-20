@@ -1,0 +1,38 @@
+{% extends "index_agent.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> Paperboy </h3> <br>
+    </div>
+
+<form id="form1" name="form1" method="post" action="">
+    <table class="table table-bordered">
+
+        <tr>
+            <th> Sl.no </th>
+            <th> Name </th>
+            <th> Place </th>
+            <th> Contact Number </th>
+            <th> Email ID </th>
+            <th> Image </th>
+            <th> Edit </th>
+            <th>&nbsp;Delete </th>
+        </tr>
+
+        {% for i in data %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td>&nbsp;{{ i["boy_name"]}}</td>
+                <td>{{ i["boy_place"] }}</td>
+                <td>{{ i["boy_contact_number"] }}</td>
+                <td>{{ i["boy_email_id"] }}</td>
+                <td><img src = "{{i["boy_image"]}}" width="50" height="50" ></td>
+                <td><a href="/agent_view_paperboy_edit/{{ i["boy_id"] }}" class="btn btn-success"> Edit </a></td>
+                <td><a href="/agent_view_paperboy_delete/{{ i["boy_id"] }}" class="btn btn-danger"> Delete </a></td>
+            </tr>
+        {% endfor %}
+
+    </table>
+</form>
+
+{% endblock %}

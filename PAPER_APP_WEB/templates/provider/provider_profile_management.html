@@ -1,0 +1,49 @@
+{#provider_profile_management.html#}
+
+{% extends "index_provider.html" %}
+{%  block body %}
+
+    <div> <h3 class="mt-4"> Profile </h3> </div> <br>
+
+<form enctype="multipart/form-data" id="form1" name="form1" method="post" action="/provider_profile_management_post">
+
+    <table class="table">
+        <tr>
+            <td> Provider Logo </td>
+            <td> <img src="{{ data["provider_logo"]}}" width="100" height="100"> </td>
+        </tr>
+
+        <tr>
+            <td> Provider Name </td>
+            <td> <input class="form-control" type="text" name="textfield2" id="textfield2" value="{{ data['provider_name'] }}"/> </td>
+        </tr>
+
+        <tr>
+            <td> Place </td>
+            <td> <input class="form-control" type="text" name="textfield3" id="textfield3" value="{{ data['place'] }}"/> </td>
+        </tr>
+
+        <tr>
+            <td> Pin Code </td>
+            <td> <input class="form-control" type="text" name="textfield4" id="textfield4" value="{{ data['pin'] }}"/> </td>
+        </tr>
+
+        <tr>
+            <td> Contact Number </td>
+            <td> <input class="form-control" type="text" name="textfield5" id="textfield5"  value="{{ data['phone'] }}"/> </td>
+        </tr>
+
+        <tr>
+            <td> Update Image </td>
+            <td> <input class="form-control" type="file" name="filefield1" id="filefield1" /> </td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td> <input class="btn btn-success" type="submit" name="register" id="register" value="Submit"/> </td>
+        </tr>
+
+  </table>
+
+</form>
+{% endblock %}

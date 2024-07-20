@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36d72266-efc7-4340-a714-b9e69159da69" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PAPER_APP_WEB$app.coverage" NAME="app Coverage Results" MODIFIED="1627030546684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="1862" column="25" lean-forward="true" selection-start-line="1862" selection-start-column="25" selection-end-line="1862" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1626944317920" expanded="true" signature="434:514" ph="SELECT * FRO... login" />
+                <marker date="1626944317920" expanded="true" signature="2258:2365" ph="SELECT * FRO... login" />
+                <marker date="1626944317920" expanded="true" signature="2579:2637" ph="UPDATE login... " />
+                <marker date="1626944317920" expanded="true" signature="2885:2943" ph="UPDATE login... " />
+                <marker date="1626944317920" expanded="true" signature="3196:3309" ph="SELECT * FRO... login" />
+                <marker date="1626944317920" expanded="true" signature="3513:3568" ph="update login... " />
+                <marker date="1626944317920" expanded="true" signature="3800:3858" ph="UPDATE login... " />
+                <marker date="1626944317920" expanded="true" signature="4112:4243" ph="SELECT provi... provider" />
+                <marker date="1626944317920" expanded="true" signature="4471:4587" ph="SELECT agent... agent" />
+                <marker date="1626944317920" expanded="true" signature="4802:4990" ph="SELECT compl... user" />
+                <marker date="1626944317920" expanded="true" signature="5595:5717" ph="SELECT * FRO... login" />
+                <marker date="1626944317920" expanded="true" signature="5792:5924" ph="UPDATE login... " />
+                <marker date="1626944317920" expanded="true" signature="7979:8060" ph="SELECT * FRO... provider" />
+                <marker date="1626944317920" expanded="true" signature="10582:10657" ph="SELECT * FRO... magazines" />
+                <marker date="1626944317920" expanded="true" signature="10920:10971" ph="SELECT * FRO... magazines" />
+                <marker date="1626944317920" expanded="true" signature="11379:11522" ph="UPDATE magaz... " />
+                <marker date="1626944317920" expanded="true" signature="11792:11841" ph="DELETE FROM " />
+                <marker date="1626944317920" expanded="true" signature="12343:12446" ph="INSERT INTO editions... " />
+                <marker date="1626944317920" expanded="true" signature="13187:13236" ph="SELECT * FRO... editions" />
+                <marker date="1626944317920" expanded="true" signature="13564:13650" ph="UPDATE editi... " />
+                <marker date="1626944317920" expanded="true" signature="13932:13979" ph="DELETE FROM " />
+                <marker date="1626944317920" expanded="true" signature="14261:14335" ph="SELECT * FRO... editions" />
+                <marker date="1626944317920" expanded="true" signature="16611:16747" ph="UPDATE editi... " />
+                <marker date="1626944317920" expanded="true" signature="17036:17094" ph="DELETE FROM " />
+                <marker date="1626944317920" expanded="true" signature="18086:18165" ph="SELECT * FRO... notifications" />
+                <marker date="1626944317920" expanded="true" signature="18443:18503" ph="SELECT * FRO... notifications" />
+                <marker date="1626944317920" expanded="true" signature="18851:18946" ph="UPDATE notif... " />
+                <marker date="1626944317920" expanded="true" signature="19234:19292" ph="DELETE FROM " />
+                <marker date="1626944317920" expanded="true" signature="19581:19658" ph="SELECT * FRO... editions" />
+                <marker date="1626944317920" expanded="true" signature="19931:19995" ph="select * fro... edition_languages" />
+                <marker date="1626944317920" expanded="true" signature="20352:20416" ph="SELECT * FRO... edition_languages" />
+                <marker date="1626944317920" expanded="true" signature="20486:20579" ph="select `edit... editions" />
+                <marker date="1626944317920" expanded="true" signature="21781:21905" ph="SELECT editi... Price" />
+                <marker date="1626944317920" expanded="true" signature="22167:22212" ph="SELECT * FRO... price" />
+                <marker date="1626944317920" expanded="true" signature="22544:22625" ph="UPDATE price... " />
+                <marker date="1626944317920" expanded="true" signature="24141:24218" ph="UPDATE paper... " />
+                <marker date="1626944317920" expanded="true" signature="24514:24591" ph="UPDATE paper... " />
+                <marker date="1626944317920" expanded="true" signature="25700:25807" ph="UPDATE magaz... " />
+                <marker date="1626944317920" expanded="true" signature="26129:26212" ph="UPDATE magaz... " />
+                <marker date="1626944317920" expanded="true" signature="27169:27240" ph="UPDATE class... " />
+                <marker date="1626944317920" expanded="true" signature="27554:27625" ph="UPDATE class... " />
+                <marker date="1626944317920" expanded="true" signature="29430:29840" ph="SELECT `user... agent" />
+                <marker date="1626944317920" expanded="true" signature="30483:30605" ph="SELECT * FRO... login" />
+                <marker date="1626944317920" expanded="true" signature="30680:30812" ph="UPDATE login... " />
+                <marker date="1626944317920" expanded="true" signature="32101:32188" ph="INSERT INTO login... " />
+                <marker date="1626944317920" expanded="true" signature="32747:32821" ph="SELECT * FRO... agent" />
+                <marker date="1626944317920" expanded="true" signature="33492:33776" ph="UPDATE agent... " />
+                <marker date="1626944317920" expanded="true" signature="34058:34367" ph="UPDATE agent... " />
+                <marker date="1626944317920" expanded="true" signature="34451:34727" ph="UPDATE agent... " />
+                <marker date="1626944317920" expanded="true" signature="34978:35000" ph="SELECT * FRO... provider" />
+                <marker date="1626944317920" expanded="true" signature="35237:35632" ph="SELECT `prov... provider" />
+                <marker date="1626944317920" expanded="true" signature="35883:36043" ph="SELECT `prov... provider" />
+                <marker date="1626944317920" expanded="true" signature="36893:37023" ph="update subsc... " />
+                <marker date="1626944317920" expanded="true" signature="37262:37390" ph="update subsc... " />
+                <marker date="1626944317920" expanded="true" signature="38971:39049" ph="UPDATE paper... " />
+                <marker date="1626944317920" expanded="true" signature="39312:39390" ph="UPDATE paper... " />
+                <marker date="1626944317920" expanded="true" signature="41236:41320" ph="UPDATE magaz... " />
+                <marker date="1626944317920" expanded="true" signature="41580:41664" ph="UPDATE magaz... " />
+                <marker date="1626944317920" expanded="true" signature="43246:43321" ph="UPDATE `clas... " />
+                <marker date="1626944317920" expanded="true" signature="43580:43654" ph="UPDATE `clas... " />
+                <marker date="1626944317920" expanded="true" signature="47063:47116" ph="SELECT * FRO... complaints" />
+                <marker date="1626944317920" expanded="true" signature="47454:47531" ph="UPDATE compl... " />
+                <marker date="1626944317920" expanded="true" signature="49268:49342" ph="SELECT * FRO... paperboy" />
+                <marker date="1626944317920" expanded="true" signature="49587:49652" ph="SELECT * FRO... paperboy" />
+                <marker date="1626944317920" expanded="true" signature="50215:50402" ph="UPDATE paper... " />
+                <marker date="1626944317920" expanded="true" signature="50670:50909" ph="UPDATE paper... " />
+                <marker date="1626944317920" expanded="true" signature="50972:51159" ph="UPDATE paper... " />
+                <marker date="1626944317920" expanded="true" signature="51350:51394" ph="DELETE FROM " />
+                <marker date="1626944317920" expanded="true" signature="53548:53613" ph="SELECT * FRO... paperboy" />
+                <marker date="1626944317920" expanded="true" signature="53655:53789" ph="select `user... user" />
+                <marker date="1626944317920" expanded="true" signature="54109:54174" ph="SELECT * FRO... paperboy" />
+                <marker date="1626944317920" expanded="true" signature="54216:54350" ph="select `user... user" />
+                <marker date="1626944317920" expanded="true" signature="56966:57088" ph="SELECT * FRO... login" />
+                <marker date="1626944317920" expanded="true" signature="57163:57295" ph="UPDATE login... " />
+                <marker date="1626944317920" expanded="true" signature="58018:58098" ph="SELECT * FRO... login" />
+                <marker date="1626944317920" expanded="true" signature="59134:59212" ph="insert into login... " />
+                <marker date="1626944317920" expanded="true" signature="60158:60234" ph="SELECT `agen... agent" />
+                <marker date="1626944317920" expanded="true" signature="60530:60616" ph="select * fro... subscriber" />
+                <marker date="1626944317920" expanded="true" signature="60841:60931" ph="update subsc... " />
+                <marker date="1626944317920" expanded="true" signature="61002:61101" ph="insert into subscriber... " />
+                <marker date="1626944317920" expanded="true" signature="61343:61477" ph="select agent... agent" />
+                <marker date="1626944317920" expanded="true" signature="62968:62992" ph="SELECT * FRO... provider" />
+                <marker date="1626944317920" expanded="true" signature="63179:63393" ph="SELECT * FRO... magazines" />
+                <marker date="1626944317920" expanded="true" signature="64212:64314" ph="SELECT * FRO... bank" />
+                <marker date="1626944317920" expanded="true" signature="64527:64647" ph="SELECT * FRO... magazine_requests" />
+                <marker date="1626944317920" expanded="true" signature="64947:65092" ph="INSERT INTO `payments`... " />
+                <marker date="1626944317920" expanded="true" signature="65207:65285" ph="update bank " />
+                <marker date="1626944317920" expanded="true" signature="65611:65836" ph="SELECT * FRO... paper_requests" />
+                <marker date="1626944317920" expanded="true" signature="66524:66602" ph="update bank " />
+                <marker date="1626944317920" expanded="true" signature="67608:67715" ph="SELECT * FRO... bank" />
+                <marker date="1626944317920" expanded="true" signature="68103:68240" ph="INSERT INTO `payments`... " />
+                <marker date="1626944317920" expanded="true" signature="68331:68409" ph="update bank " />
+                <marker date="1626944317920" expanded="true" signature="68691:68768" ph="DELETE FROM " />
+                <marker date="1626944317920" expanded="true" signature="69002:69058" ph="SELECT * FRO... magazine_requests" />
+                <marker date="1626944317920" expanded="true" signature="69980:70013" ph="SELECT * FRO... edition_languages" />
+                <marker date="1626944317920" expanded="true" signature="70213:70643" ph="SELECT `edit... edition_languages" />
+                <marker date="1626944317920" expanded="true" signature="72379:72431" ph="SELECT * FRO... classifieds" />
+                <marker date="1626944317920" expanded="true" signature="72761:72886" ph="INSERT INTO complaints... " />
+                <marker date="1626944317920" expanded="true" signature="73161:73243" ph="SELECT * FRO... complaints" />
+                <marker date="1626944317920" expanded="true" signature="73450:73580" ph="SELECT notif... notifications" />
+                <marker date="1626944317920" expanded="true" signature="73922:73977" ph="SELECT * FRO... user_status" />
+                <marker date="1626944317920" expanded="true" signature="74050:74171" ph="UPDATE `user... " />
+                <marker date="1626944317920" expanded="true" signature="74230:74356" ph="INSERT INTO `user_status`... " />
+                <marker date="1626944317920" expanded="true" signature="74641:74697" ph="SELECT * FRO... bank" />
+                <marker date="1626944317920" expanded="true" signature="74932:74979" ph="SELECT * FRO... payments" />
+                <marker date="1626944317920" expanded="true" signature="75268:75465" ph="SELECT * FRO... classifieds" />
+                <marker date="1626944317920" expanded="true" signature="75705:75754" ph="select * fro... user_status" />
+                <marker date="1626944317920" expanded="true" signature="76534:76734" ph="UPDATE paper... " />
+                <marker date="1626944317920" expanded="true" signature="77179:77407" ph="UPDATE paper... " />
+                <marker date="1626944317920" expanded="true" signature="79838:79901" ph="SELECT user_... user_status" />
+                <marker date="1626944317920" expanded="true" signature="80138:80193" ph="SELECT * FRO... paperboy" />
+                <marker date="1626944317920" expanded="true" signature="80633:80714" ph="SELECT * FRO... paper_status" />
+                <marker date="1626944317920" expanded="true" signature="80787:80898" ph="UPDATE `pape... " />
+                <marker date="1626944317920" expanded="true" signature="80957:81071" ph="INSERT INTO `paper_status`... " />
+                <marker date="1626944317920" expanded="true" signature="81301:81370" ph="update alloc... " />
+                <marker date="1626944317920" expanded="true" signature="81301:81382" ph="update alloc... " />
+                <marker date="1626944317920" expanded="true" signature="81613:81696" ph="update alloc... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin_view_complaints.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/admin/admin_view_complaints.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>user_view_edition_extra</find>
+      <find>paperboy_view_paper_allocation_list</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectId" id="1njN3g6HQGgTg49a2WW2JOVxUKE" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PAPER_APP_WEB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PAPER_APP_WEB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PAPER_APP_WEB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PAPER_APP_WEB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PAPER_APP_WEB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PAPER_APP_WEB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PAPER_APP_WEB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PAPER_APP_WEB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PAPER_APP_WEB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PAPER_APP_WEB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classifieds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PAPER_APP_WEB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PAPER_APP_WEB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agent_image" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\MY_SYSTEM_SOFTWARES_PROJECT\FINAL_PROJECT_BCA_SURYA\PAPER_APP_WEB\templates\provider" />
+      <recent name="H:\MY_SYSTEM_SOFTWARES_PROJECT\FINAL_PROJECT_BCA_SURYA\PAPER_APP_WEB\templates\agent" />
+      <recent name="H:\MY_SYSTEM_SOFTWARES_PROJECT\FINAL_PROJECT_BCA_SURYA\PAPER_APP_WEB\templates\admin" />
+      <recent name="C:\Users\USER\PycharmProjects\newspaper\static\index_registration_template" />
+      <recent name="C:\Users\USER\PycharmProjects\newspaper\templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration default="false" name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\python3.7\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="newspaper" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="newspaper" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="newspaper" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="newspaper" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="newspaper" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="newspaper" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="newspaper" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="newspaper" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.app" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+    <configuration name="PAPER_APP_WEB" type="Python.FlaskServer">
+      <option name="additionalOptions" value="--host 0.0.0.0" />
+      <module name="newspaper" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36d72266-efc7-4340-a714-b9e69159da69" name="Default Changelist" comment="" />
+      <created>1611899342701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611899342701</updated>
+      <workItem from="1611899381952" duration="283000" />
+      <workItem from="1611901476580" duration="13321000" />
+      <workItem from="1622192136200" duration="1208000" />
+      <workItem from="1622196003930" duration="1536000" />
+      <workItem from="1622197944916" duration="1699000" />
+      <workItem from="1622199751121" duration="262000" />
+      <workItem from="1622259634590" duration="1477000" />
+      <workItem from="1622261315760" duration="1776000" />
+      <workItem from="1622263281197" duration="1499000" />
+      <workItem from="1622265161372" duration="1060000" />
+      <workItem from="1622427907070" duration="1655000" />
+      <workItem from="1622450093679" duration="1560000" />
+      <workItem from="1622452108876" duration="952000" />
+      <workItem from="1622453681827" duration="3584000" />
+      <workItem from="1622458001214" duration="2888000" />
+      <workItem from="1622471315404" duration="8652000" />
+      <workItem from="1622527682001" duration="7163000" />
+      <workItem from="1622544683108" duration="4746000" />
+      <workItem from="1622556174215" duration="9945000" />
+      <workItem from="1622614781123" duration="4088000" />
+      <workItem from="1622700274153" duration="13798000" />
+      <workItem from="1622781793996" duration="10656000" />
+      <workItem from="1622873903378" duration="14017000" />
+      <workItem from="1622897664702" duration="3538000" />
+      <workItem from="1622993838485" duration="2603000" />
+      <workItem from="1623045122632" duration="10228000" />
+      <workItem from="1623136802184" duration="1983000" />
+      <workItem from="1623141507398" duration="18565000" />
+      <workItem from="1623221284173" duration="2126000" />
+      <workItem from="1623224448411" duration="19742000" />
+      <workItem from="1623301772069" duration="25032000" />
+      <workItem from="1623391335752" duration="4838000" />
+      <workItem from="1623396890683" duration="5183000" />
+      <workItem from="1623473813905" duration="2016000" />
+      <workItem from="1623479701752" duration="21301000" />
+      <workItem from="1623557482667" duration="6549000" />
+      <workItem from="1623651384345" duration="22367000" />
+      <workItem from="1623736362775" duration="7384000" />
+      <workItem from="1623817579398" duration="5859000" />
+      <workItem from="1623908399510" duration="10553000" />
+      <workItem from="1623996193546" duration="13461000" />
+      <workItem from="1624082082693" duration="20214000" />
+      <workItem from="1624177634369" duration="11043000" />
+      <workItem from="1624254821326" duration="7920000" />
+      <workItem from="1624280330931" duration="362000" />
+      <workItem from="1624281672669" duration="6935000" />
+      <workItem from="1624328217575" duration="13318000" />
+      <workItem from="1624415119336" duration="5648000" />
+      <workItem from="1624500695400" duration="1409000" />
+      <workItem from="1624894450278" duration="1438000" />
+      <workItem from="1624945418559" duration="3158000" />
+      <workItem from="1624950805365" duration="1441000" />
+      <workItem from="1624953675460" duration="22457000" />
+      <workItem from="1625028691391" duration="6702000" />
+      <workItem from="1625727179984" duration="8442000" />
+      <workItem from="1625751619732" duration="2129000" />
+      <workItem from="1625809033633" duration="2061000" />
+      <workItem from="1625833967265" duration="635000" />
+      <workItem from="1626167958069" duration="608000" />
+      <workItem from="1626170609640" duration="3221000" />
+      <workItem from="1626341789308" duration="5187000" />
+      <workItem from="1626405880049" duration="1741000" />
+      <workItem from="1626428966670" duration="1396000" />
+      <workItem from="1626430982192" duration="803000" />
+      <workItem from="1626432439291" duration="3237000" />
+      <workItem from="1626493092141" duration="21036000" />
+      <workItem from="1626590905553" duration="15509000" />
+      <workItem from="1626667042158" duration="26344000" />
+      <workItem from="1626766165225" duration="8848000" />
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26100966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>780</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>781</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>782</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>200</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>201</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>202</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1232</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1233</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1225</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1226</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1257</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1258</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1283</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1282</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1663</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1664</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1788</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1789</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1790</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1791</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1792</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1352</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1353</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1354</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1355</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1356</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1688</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1689</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1773</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1774</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PAPER_APP_WEB$newspaper.coverage" NAME="PAPER_APP_WEB Coverage Results" MODIFIED="1624979376446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newspaper$newspaper.coverage" NAME="newspaper Coverage Results" MODIFIED="1624500921208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PAPER_APP_WEB$PAPER_APP_WEB.coverage" NAME="PAPER_APP_WEB Coverage Results" MODIFIED="1626776272819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1626944317920" expanded="true" signature="434:514" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="2258:2365" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="2579:2637" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="2885:2943" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="3196:3309" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="3513:3568" ph="update login... " />
+            <marker date="1626944317920" expanded="true" signature="3800:3858" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="4112:4243" ph="SELECT provi... provider" />
+            <marker date="1626944317920" expanded="true" signature="4471:4587" ph="SELECT agent... agent" />
+            <marker date="1626944317920" expanded="true" signature="4802:4990" ph="SELECT compl... user" />
+            <marker date="1626944317920" expanded="true" signature="5595:5717" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="5792:5924" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="7979:8060" ph="SELECT * FRO... provider" />
+            <marker date="1626944317920" expanded="true" signature="10582:10657" ph="SELECT * FRO... magazines" />
+            <marker date="1626944317920" expanded="true" signature="10920:10971" ph="SELECT * FRO... magazines" />
+            <marker date="1626944317920" expanded="true" signature="11379:11522" ph="UPDATE magaz... " />
+            <marker date="1626944317920" expanded="true" signature="11792:11841" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="12343:12446" ph="INSERT INTO editions... " />
+            <marker date="1626944317920" expanded="true" signature="13187:13236" ph="SELECT * FRO... editions" />
+            <marker date="1626944317920" expanded="true" signature="13564:13650" ph="UPDATE editi... " />
+            <marker date="1626944317920" expanded="true" signature="13932:13979" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="14261:14335" ph="SELECT * FRO... editions" />
+            <marker date="1626944317920" expanded="true" signature="16611:16747" ph="UPDATE editi... " />
+            <marker date="1626944317920" expanded="true" signature="17036:17094" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="18086:18165" ph="SELECT * FRO... notifications" />
+            <marker date="1626944317920" expanded="true" signature="18443:18503" ph="SELECT * FRO... notifications" />
+            <marker date="1626944317920" expanded="true" signature="18851:18946" ph="UPDATE notif... " />
+            <marker date="1626944317920" expanded="true" signature="19234:19292" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="19581:19658" ph="SELECT * FRO... editions" />
+            <marker date="1626944317920" expanded="true" signature="19931:19995" ph="select * fro... edition_languages" />
+            <marker date="1626944317920" expanded="true" signature="20352:20416" ph="SELECT * FRO... edition_languages" />
+            <marker date="1626944317920" expanded="true" signature="20486:20579" ph="select `edit... editions" />
+            <marker date="1626944317920" expanded="true" signature="21781:21905" ph="SELECT editi... Price" />
+            <marker date="1626944317920" expanded="true" signature="22167:22212" ph="SELECT * FRO... price" />
+            <marker date="1626944317920" expanded="true" signature="22544:22625" ph="UPDATE price... " />
+            <marker date="1626944317920" expanded="true" signature="24141:24218" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="24514:24591" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="25700:25807" ph="UPDATE magaz... " />
+            <marker date="1626944317920" expanded="true" signature="26129:26212" ph="UPDATE magaz... " />
+            <marker date="1626944317920" expanded="true" signature="27169:27240" ph="UPDATE class... " />
+            <marker date="1626944317920" expanded="true" signature="27554:27625" ph="UPDATE class... " />
+            <marker date="1626944317920" expanded="true" signature="29430:29840" ph="SELECT `user... agent" />
+            <marker date="1626944317920" expanded="true" signature="30483:30605" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="30680:30812" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="32101:32188" ph="INSERT INTO login... " />
+            <marker date="1626944317920" expanded="true" signature="32747:32821" ph="SELECT * FRO... agent" />
+            <marker date="1626944317920" expanded="true" signature="33492:33776" ph="UPDATE agent... " />
+            <marker date="1626944317920" expanded="true" signature="34058:34367" ph="UPDATE agent... " />
+            <marker date="1626944317920" expanded="true" signature="34451:34727" ph="UPDATE agent... " />
+            <marker date="1626944317920" expanded="true" signature="34978:35000" ph="SELECT * FRO... provider" />
+            <marker date="1626944317920" expanded="true" signature="35237:35632" ph="SELECT `prov... provider" />
+            <marker date="1626944317920" expanded="true" signature="35883:36043" ph="SELECT `prov... provider" />
+            <marker date="1626944317920" expanded="true" signature="36893:37023" ph="update subsc... " />
+            <marker date="1626944317920" expanded="true" signature="37262:37390" ph="update subsc... " />
+            <marker date="1626944317920" expanded="true" signature="38971:39049" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="39312:39390" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="41236:41320" ph="UPDATE magaz... " />
+            <marker date="1626944317920" expanded="true" signature="41580:41664" ph="UPDATE magaz... " />
+            <marker date="1626944317920" expanded="true" signature="43246:43321" ph="UPDATE `clas... " />
+            <marker date="1626944317920" expanded="true" signature="43580:43654" ph="UPDATE `clas... " />
+            <marker date="1626944317920" expanded="true" signature="47063:47116" ph="SELECT * FRO... complaints" />
+            <marker date="1626944317920" expanded="true" signature="47454:47531" ph="UPDATE compl... " />
+            <marker date="1626944317920" expanded="true" signature="49268:49342" ph="SELECT * FRO... paperboy" />
+            <marker date="1626944317920" expanded="true" signature="49587:49652" ph="SELECT * FRO... paperboy" />
+            <marker date="1626944317920" expanded="true" signature="50215:50402" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="50670:50909" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="50972:51159" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="51350:51394" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="53548:53613" ph="SELECT * FRO... paperboy" />
+            <marker date="1626944317920" expanded="true" signature="53655:53789" ph="select `user... user" />
+            <marker date="1626944317920" expanded="true" signature="54109:54174" ph="SELECT * FRO... paperboy" />
+            <marker date="1626944317920" expanded="true" signature="54216:54350" ph="select `user... user" />
+            <marker date="1626944317920" expanded="true" signature="56966:57088" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="57163:57295" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="58018:58098" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="59134:59212" ph="insert into login... " />
+            <marker date="1626944317920" expanded="true" signature="60158:60234" ph="SELECT `agen... agent" />
+            <marker date="1626944317920" expanded="true" signature="60530:60616" ph="select * fro... subscriber" />
+            <marker date="1626944317920" expanded="true" signature="60841:60931" ph="update subsc... " />
+            <marker date="1626944317920" expanded="true" signature="61002:61101" ph="insert into subscriber... " />
+            <marker date="1626944317920" expanded="true" signature="61343:61477" ph="select agent... agent" />
+            <marker date="1626944317920" expanded="true" signature="62968:62992" ph="SELECT * FRO... provider" />
+            <marker date="1626944317920" expanded="true" signature="63179:63393" ph="SELECT * FRO... magazines" />
+            <marker date="1626944317920" expanded="true" signature="64212:64314" ph="SELECT * FRO... bank" />
+            <marker date="1626944317920" expanded="true" signature="64527:64647" ph="SELECT * FRO... magazine_requests" />
+            <marker date="1626944317920" expanded="true" signature="64947:65092" ph="INSERT INTO `payments`... " />
+            <marker date="1626944317920" expanded="true" signature="65207:65285" ph="update bank " />
+            <marker date="1626944317920" expanded="true" signature="65611:65836" ph="SELECT * FRO... paper_requests" />
+            <marker date="1626944317920" expanded="true" signature="66524:66602" ph="update bank " />
+            <marker date="1626944317920" expanded="true" signature="67608:67715" ph="SELECT * FRO... bank" />
+            <marker date="1626944317920" expanded="true" signature="68103:68240" ph="INSERT INTO `payments`... " />
+            <marker date="1626944317920" expanded="true" signature="68331:68409" ph="update bank " />
+            <marker date="1626944317920" expanded="true" signature="68691:68768" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="69002:69058" ph="SELECT * FRO... magazine_requests" />
+            <marker date="1626944317920" expanded="true" signature="69980:70013" ph="SELECT * FRO... edition_languages" />
+            <marker date="1626944317920" expanded="true" signature="70213:70643" ph="SELECT `edit... edition_languages" />
+            <marker date="1626944317920" expanded="true" signature="72379:72431" ph="SELECT * FRO... classifieds" />
+            <marker date="1626944317920" expanded="true" signature="72761:72886" ph="INSERT INTO complaints... " />
+            <marker date="1626944317920" expanded="true" signature="73161:73243" ph="SELECT * FRO... complaints" />
+            <marker date="1626944317920" expanded="true" signature="73450:73580" ph="SELECT notif... notifications" />
+            <marker date="1626944317920" expanded="true" signature="73922:73977" ph="SELECT * FRO... user_status" />
+            <marker date="1626944317920" expanded="true" signature="74050:74171" ph="UPDATE `user... " />
+            <marker date="1626944317920" expanded="true" signature="74230:74356" ph="INSERT INTO `user_status`... " />
+            <marker date="1626944317920" expanded="true" signature="74641:74697" ph="SELECT * FRO... bank" />
+            <marker date="1626944317920" expanded="true" signature="74932:74979" ph="SELECT * FRO... payments" />
+            <marker date="1626944317920" expanded="true" signature="75268:75465" ph="SELECT * FRO... classifieds" />
+            <marker date="1626944317920" expanded="true" signature="75705:75754" ph="select * fro... user_status" />
+            <marker date="1626944317920" expanded="true" signature="76534:76734" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="77179:77407" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="79838:79901" ph="SELECT user_... user_status" />
+            <marker date="1626944317920" expanded="true" signature="80138:80193" ph="SELECT * FRO... paperboy" />
+            <marker date="1626944317920" expanded="true" signature="80633:80714" ph="SELECT * FRO... paper_status" />
+            <marker date="1626944317920" expanded="true" signature="80787:80898" ph="UPDATE `pape... " />
+            <marker date="1626944317920" expanded="true" signature="80957:81071" ph="INSERT INTO `paper_status`... " />
+            <marker date="1626944317920" expanded="true" signature="81301:81370" ph="update alloc... " />
+            <marker date="1626944317920" expanded="true" signature="81301:81382" ph="update alloc... " />
+            <marker date="1626944317920" expanded="true" signature="81613:81696" ph="update alloc... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1626944317920" expanded="true" signature="434:514" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="2258:2365" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="2579:2637" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="2885:2943" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="3196:3309" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="3513:3568" ph="update login... " />
+            <marker date="1626944317920" expanded="true" signature="3800:3858" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="4112:4243" ph="SELECT provi... provider" />
+            <marker date="1626944317920" expanded="true" signature="4471:4587" ph="SELECT agent... agent" />
+            <marker date="1626944317920" expanded="true" signature="4802:4990" ph="SELECT compl... user" />
+            <marker date="1626944317920" expanded="true" signature="5595:5717" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="5792:5924" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="7979:8060" ph="SELECT * FRO... provider" />
+            <marker date="1626944317920" expanded="true" signature="10582:10657" ph="SELECT * FRO... magazines" />
+            <marker date="1626944317920" expanded="true" signature="10920:10971" ph="SELECT * FRO... magazines" />
+            <marker date="1626944317920" expanded="true" signature="11379:11522" ph="UPDATE magaz... " />
+            <marker date="1626944317920" expanded="true" signature="11792:11841" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="12343:12446" ph="INSERT INTO editions... " />
+            <marker date="1626944317920" expanded="true" signature="13187:13236" ph="SELECT * FRO... editions" />
+            <marker date="1626944317920" expanded="true" signature="13564:13650" ph="UPDATE editi... " />
+            <marker date="1626944317920" expanded="true" signature="13932:13979" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="14261:14335" ph="SELECT * FRO... editions" />
+            <marker date="1626944317920" expanded="true" signature="16611:16747" ph="UPDATE editi... " />
+            <marker date="1626944317920" expanded="true" signature="17036:17094" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="18086:18165" ph="SELECT * FRO... notifications" />
+            <marker date="1626944317920" expanded="true" signature="18443:18503" ph="SELECT * FRO... notifications" />
+            <marker date="1626944317920" expanded="true" signature="18851:18946" ph="UPDATE notif... " />
+            <marker date="1626944317920" expanded="true" signature="19234:19292" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="19581:19658" ph="SELECT * FRO... editions" />
+            <marker date="1626944317920" expanded="true" signature="19931:19995" ph="select * fro... edition_languages" />
+            <marker date="1626944317920" expanded="true" signature="20352:20416" ph="SELECT * FRO... edition_languages" />
+            <marker date="1626944317920" expanded="true" signature="20486:20579" ph="select `edit... editions" />
+            <marker date="1626944317920" expanded="true" signature="21781:21905" ph="SELECT editi... Price" />
+            <marker date="1626944317920" expanded="true" signature="22167:22212" ph="SELECT * FRO... price" />
+            <marker date="1626944317920" expanded="true" signature="22544:22625" ph="UPDATE price... " />
+            <marker date="1626944317920" expanded="true" signature="24141:24218" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="24514:24591" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="25700:25807" ph="UPDATE magaz... " />
+            <marker date="1626944317920" expanded="true" signature="26129:26212" ph="UPDATE magaz... " />
+            <marker date="1626944317920" expanded="true" signature="27169:27240" ph="UPDATE class... " />
+            <marker date="1626944317920" expanded="true" signature="27554:27625" ph="UPDATE class... " />
+            <marker date="1626944317920" expanded="true" signature="29430:29840" ph="SELECT `user... agent" />
+            <marker date="1626944317920" expanded="true" signature="30483:30605" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="30680:30812" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="32101:32188" ph="INSERT INTO login... " />
+            <marker date="1626944317920" expanded="true" signature="32747:32821" ph="SELECT * FRO... agent" />
+            <marker date="1626944317920" expanded="true" signature="33492:33776" ph="UPDATE agent... " />
+            <marker date="1626944317920" expanded="true" signature="34058:34367" ph="UPDATE agent... " />
+            <marker date="1626944317920" expanded="true" signature="34451:34727" ph="UPDATE agent... " />
+            <marker date="1626944317920" expanded="true" signature="34978:35000" ph="SELECT * FRO... provider" />
+            <marker date="1626944317920" expanded="true" signature="35237:35632" ph="SELECT `prov... provider" />
+            <marker date="1626944317920" expanded="true" signature="35883:36043" ph="SELECT `prov... provider" />
+            <marker date="1626944317920" expanded="true" signature="36893:37023" ph="update subsc... " />
+            <marker date="1626944317920" expanded="true" signature="37262:37390" ph="update subsc... " />
+            <marker date="1626944317920" expanded="true" signature="38971:39049" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="39312:39390" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="41236:41320" ph="UPDATE magaz... " />
+            <marker date="1626944317920" expanded="true" signature="41580:41664" ph="UPDATE magaz... " />
+            <marker date="1626944317920" expanded="true" signature="43246:43321" ph="UPDATE `clas... " />
+            <marker date="1626944317920" expanded="true" signature="43580:43654" ph="UPDATE `clas... " />
+            <marker date="1626944317920" expanded="true" signature="47063:47116" ph="SELECT * FRO... complaints" />
+            <marker date="1626944317920" expanded="true" signature="47454:47531" ph="UPDATE compl... " />
+            <marker date="1626944317920" expanded="true" signature="49268:49342" ph="SELECT * FRO... paperboy" />
+            <marker date="1626944317920" expanded="true" signature="49587:49652" ph="SELECT * FRO... paperboy" />
+            <marker date="1626944317920" expanded="true" signature="50215:50402" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="50670:50909" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="50972:51159" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="51350:51394" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="53548:53613" ph="SELECT * FRO... paperboy" />
+            <marker date="1626944317920" expanded="true" signature="53655:53789" ph="select `user... user" />
+            <marker date="1626944317920" expanded="true" signature="54109:54174" ph="SELECT * FRO... paperboy" />
+            <marker date="1626944317920" expanded="true" signature="54216:54350" ph="select `user... user" />
+            <marker date="1626944317920" expanded="true" signature="56966:57088" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="57163:57295" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="58018:58098" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="59134:59212" ph="insert into login... " />
+            <marker date="1626944317920" expanded="true" signature="60158:60234" ph="SELECT `agen... agent" />
+            <marker date="1626944317920" expanded="true" signature="60530:60616" ph="select * fro... subscriber" />
+            <marker date="1626944317920" expanded="true" signature="60841:60931" ph="update subsc... " />
+            <marker date="1626944317920" expanded="true" signature="61002:61101" ph="insert into subscriber... " />
+            <marker date="1626944317920" expanded="true" signature="61343:61477" ph="select agent... agent" />
+            <marker date="1626944317920" expanded="true" signature="62968:62992" ph="SELECT * FRO... provider" />
+            <marker date="1626944317920" expanded="true" signature="63179:63393" ph="SELECT * FRO... magazines" />
+            <marker date="1626944317920" expanded="true" signature="64212:64314" ph="SELECT * FRO... bank" />
+            <marker date="1626944317920" expanded="true" signature="64527:64647" ph="SELECT * FRO... magazine_requests" />
+            <marker date="1626944317920" expanded="true" signature="64947:65092" ph="INSERT INTO `payments`... " />
+            <marker date="1626944317920" expanded="true" signature="65207:65285" ph="update bank " />
+            <marker date="1626944317920" expanded="true" signature="65611:65836" ph="SELECT * FRO... paper_requests" />
+            <marker date="1626944317920" expanded="true" signature="66524:66602" ph="update bank " />
+            <marker date="1626944317920" expanded="true" signature="67608:67715" ph="SELECT * FRO... bank" />
+            <marker date="1626944317920" expanded="true" signature="68103:68240" ph="INSERT INTO `payments`... " />
+            <marker date="1626944317920" expanded="true" signature="68331:68409" ph="update bank " />
+            <marker date="1626944317920" expanded="true" signature="68691:68768" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="69002:69058" ph="SELECT * FRO... magazine_requests" />
+            <marker date="1626944317920" expanded="true" signature="69980:70013" ph="SELECT * FRO... edition_languages" />
+            <marker date="1626944317920" expanded="true" signature="70213:70643" ph="SELECT `edit... edition_languages" />
+            <marker date="1626944317920" expanded="true" signature="72379:72431" ph="SELECT * FRO... classifieds" />
+            <marker date="1626944317920" expanded="true" signature="72761:72886" ph="INSERT INTO complaints... " />
+            <marker date="1626944317920" expanded="true" signature="73161:73243" ph="SELECT * FRO... complaints" />
+            <marker date="1626944317920" expanded="true" signature="73450:73580" ph="SELECT notif... notifications" />
+            <marker date="1626944317920" expanded="true" signature="73922:73977" ph="SELECT * FRO... user_status" />
+            <marker date="1626944317920" expanded="true" signature="74050:74171" ph="UPDATE `user... " />
+            <marker date="1626944317920" expanded="true" signature="74230:74356" ph="INSERT INTO `user_status`... " />
+            <marker date="1626944317920" expanded="true" signature="74641:74697" ph="SELECT * FRO... bank" />
+            <marker date="1626944317920" expanded="true" signature="74932:74979" ph="SELECT * FRO... payments" />
+            <marker date="1626944317920" expanded="true" signature="75268:75465" ph="SELECT * FRO... classifieds" />
+            <marker date="1626944317920" expanded="true" signature="75705:75754" ph="select * fro... user_status" />
+            <marker date="1626944317920" expanded="true" signature="76534:76734" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="77179:77407" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="79838:79901" ph="SELECT user_... user_status" />
+            <marker date="1626944317920" expanded="true" signature="80138:80193" ph="SELECT * FRO... paperboy" />
+            <marker date="1626944317920" expanded="true" signature="80633:80714" ph="SELECT * FRO... paper_status" />
+            <marker date="1626944317920" expanded="true" signature="80787:80898" ph="UPDATE `pape... " />
+            <marker date="1626944317920" expanded="true" signature="80957:81071" ph="INSERT INTO `paper_status`... " />
+            <marker date="1626944317920" expanded="true" signature="81301:81370" ph="update alloc... " />
+            <marker date="1626944317920" expanded="true" signature="81301:81382" ph="update alloc... " />
+            <marker date="1626944317920" expanded="true" signature="81613:81696" ph="update alloc... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1626944317920" expanded="true" signature="434:514" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="2258:2365" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="2579:2637" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="2885:2943" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="3196:3309" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="3513:3568" ph="update login... " />
+            <marker date="1626944317920" expanded="true" signature="3800:3858" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="4112:4243" ph="SELECT provi... provider" />
+            <marker date="1626944317920" expanded="true" signature="4471:4587" ph="SELECT agent... agent" />
+            <marker date="1626944317920" expanded="true" signature="4802:4990" ph="SELECT compl... user" />
+            <marker date="1626944317920" expanded="true" signature="5595:5717" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="5792:5924" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="7979:8060" ph="SELECT * FRO... provider" />
+            <marker date="1626944317920" expanded="true" signature="10582:10657" ph="SELECT * FRO... magazines" />
+            <marker date="1626944317920" expanded="true" signature="10920:10971" ph="SELECT * FRO... magazines" />
+            <marker date="1626944317920" expanded="true" signature="11379:11522" ph="UPDATE magaz... " />
+            <marker date="1626944317920" expanded="true" signature="11792:11841" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="12343:12446" ph="INSERT INTO editions... " />
+            <marker date="1626944317920" expanded="true" signature="13187:13236" ph="SELECT * FRO... editions" />
+            <marker date="1626944317920" expanded="true" signature="13564:13650" ph="UPDATE editi... " />
+            <marker date="1626944317920" expanded="true" signature="13932:13979" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="14261:14335" ph="SELECT * FRO... editions" />
+            <marker date="1626944317920" expanded="true" signature="16611:16747" ph="UPDATE editi... " />
+            <marker date="1626944317920" expanded="true" signature="17036:17094" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="18086:18165" ph="SELECT * FRO... notifications" />
+            <marker date="1626944317920" expanded="true" signature="18443:18503" ph="SELECT * FRO... notifications" />
+            <marker date="1626944317920" expanded="true" signature="18851:18946" ph="UPDATE notif... " />
+            <marker date="1626944317920" expanded="true" signature="19234:19292" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="19581:19658" ph="SELECT * FRO... editions" />
+            <marker date="1626944317920" expanded="true" signature="19931:19995" ph="select * fro... edition_languages" />
+            <marker date="1626944317920" expanded="true" signature="20352:20416" ph="SELECT * FRO... edition_languages" />
+            <marker date="1626944317920" expanded="true" signature="20486:20579" ph="select `edit... editions" />
+            <marker date="1626944317920" expanded="true" signature="21781:21905" ph="SELECT editi... Price" />
+            <marker date="1626944317920" expanded="true" signature="22167:22212" ph="SELECT * FRO... price" />
+            <marker date="1626944317920" expanded="true" signature="22544:22625" ph="UPDATE price... " />
+            <marker date="1626944317920" expanded="true" signature="24141:24218" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="24514:24591" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="25700:25807" ph="UPDATE magaz... " />
+            <marker date="1626944317920" expanded="true" signature="26129:26212" ph="UPDATE magaz... " />
+            <marker date="1626944317920" expanded="true" signature="27169:27240" ph="UPDATE class... " />
+            <marker date="1626944317920" expanded="true" signature="27554:27625" ph="UPDATE class... " />
+            <marker date="1626944317920" expanded="true" signature="29430:29840" ph="SELECT `user... agent" />
+            <marker date="1626944317920" expanded="true" signature="30483:30605" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="30680:30812" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="32101:32188" ph="INSERT INTO login... " />
+            <marker date="1626944317920" expanded="true" signature="32747:32821" ph="SELECT * FRO... agent" />
+            <marker date="1626944317920" expanded="true" signature="33492:33776" ph="UPDATE agent... " />
+            <marker date="1626944317920" expanded="true" signature="34058:34367" ph="UPDATE agent... " />
+            <marker date="1626944317920" expanded="true" signature="34451:34727" ph="UPDATE agent... " />
+            <marker date="1626944317920" expanded="true" signature="34978:35000" ph="SELECT * FRO... provider" />
+            <marker date="1626944317920" expanded="true" signature="35237:35632" ph="SELECT `prov... provider" />
+            <marker date="1626944317920" expanded="true" signature="35883:36043" ph="SELECT `prov... provider" />
+            <marker date="1626944317920" expanded="true" signature="36893:37023" ph="update subsc... " />
+            <marker date="1626944317920" expanded="true" signature="37262:37390" ph="update subsc... " />
+            <marker date="1626944317920" expanded="true" signature="38971:39049" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="39312:39390" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="41236:41320" ph="UPDATE magaz... " />
+            <marker date="1626944317920" expanded="true" signature="41580:41664" ph="UPDATE magaz... " />
+            <marker date="1626944317920" expanded="true" signature="43246:43321" ph="UPDATE `clas... " />
+            <marker date="1626944317920" expanded="true" signature="43580:43654" ph="UPDATE `clas... " />
+            <marker date="1626944317920" expanded="true" signature="47063:47116" ph="SELECT * FRO... complaints" />
+            <marker date="1626944317920" expanded="true" signature="47454:47531" ph="UPDATE compl... " />
+            <marker date="1626944317920" expanded="true" signature="49268:49342" ph="SELECT * FRO... paperboy" />
+            <marker date="1626944317920" expanded="true" signature="49587:49652" ph="SELECT * FRO... paperboy" />
+            <marker date="1626944317920" expanded="true" signature="50215:50402" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="50670:50909" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="50972:51159" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="51350:51394" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="53548:53613" ph="SELECT * FRO... paperboy" />
+            <marker date="1626944317920" expanded="true" signature="53655:53789" ph="select `user... user" />
+            <marker date="1626944317920" expanded="true" signature="54109:54174" ph="SELECT * FRO... paperboy" />
+            <marker date="1626944317920" expanded="true" signature="54216:54350" ph="select `user... user" />
+            <marker date="1626944317920" expanded="true" signature="56966:57088" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="57163:57295" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="58018:58098" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="59134:59212" ph="insert into login... " />
+            <marker date="1626944317920" expanded="true" signature="60158:60234" ph="SELECT `agen... agent" />
+            <marker date="1626944317920" expanded="true" signature="60530:60616" ph="select * fro... subscriber" />
+            <marker date="1626944317920" expanded="true" signature="60841:60931" ph="update subsc... " />
+            <marker date="1626944317920" expanded="true" signature="61002:61101" ph="insert into subscriber... " />
+            <marker date="1626944317920" expanded="true" signature="61343:61477" ph="select agent... agent" />
+            <marker date="1626944317920" expanded="true" signature="62968:62992" ph="SELECT * FRO... provider" />
+            <marker date="1626944317920" expanded="true" signature="63179:63393" ph="SELECT * FRO... magazines" />
+            <marker date="1626944317920" expanded="true" signature="64212:64314" ph="SELECT * FRO... bank" />
+            <marker date="1626944317920" expanded="true" signature="64527:64647" ph="SELECT * FRO... magazine_requests" />
+            <marker date="1626944317920" expanded="true" signature="64947:65092" ph="INSERT INTO `payments`... " />
+            <marker date="1626944317920" expanded="true" signature="65207:65285" ph="update bank " />
+            <marker date="1626944317920" expanded="true" signature="65611:65836" ph="SELECT * FRO... paper_requests" />
+            <marker date="1626944317920" expanded="true" signature="66524:66602" ph="update bank " />
+            <marker date="1626944317920" expanded="true" signature="67608:67715" ph="SELECT * FRO... bank" />
+            <marker date="1626944317920" expanded="true" signature="68103:68240" ph="INSERT INTO `payments`... " />
+            <marker date="1626944317920" expanded="true" signature="68331:68409" ph="update bank " />
+            <marker date="1626944317920" expanded="true" signature="68691:68768" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="69002:69058" ph="SELECT * FRO... magazine_requests" />
+            <marker date="1626944317920" expanded="true" signature="69980:70013" ph="SELECT * FRO... edition_languages" />
+            <marker date="1626944317920" expanded="true" signature="70213:70643" ph="SELECT `edit... edition_languages" />
+            <marker date="1626944317920" expanded="true" signature="72379:72431" ph="SELECT * FRO... classifieds" />
+            <marker date="1626944317920" expanded="true" signature="72761:72886" ph="INSERT INTO complaints... " />
+            <marker date="1626944317920" expanded="true" signature="73161:73243" ph="SELECT * FRO... complaints" />
+            <marker date="1626944317920" expanded="true" signature="73450:73580" ph="SELECT notif... notifications" />
+            <marker date="1626944317920" expanded="true" signature="73922:73977" ph="SELECT * FRO... user_status" />
+            <marker date="1626944317920" expanded="true" signature="74050:74171" ph="UPDATE `user... " />
+            <marker date="1626944317920" expanded="true" signature="74230:74356" ph="INSERT INTO `user_status`... " />
+            <marker date="1626944317920" expanded="true" signature="74641:74697" ph="SELECT * FRO... bank" />
+            <marker date="1626944317920" expanded="true" signature="74932:74979" ph="SELECT * FRO... payments" />
+            <marker date="1626944317920" expanded="true" signature="75268:75465" ph="SELECT * FRO... classifieds" />
+            <marker date="1626944317920" expanded="true" signature="75705:75754" ph="select * fro... user_status" />
+            <marker date="1626944317920" expanded="true" signature="76534:76734" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="77179:77407" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="79838:79901" ph="SELECT user_... user_status" />
+            <marker date="1626944317920" expanded="true" signature="80138:80193" ph="SELECT * FRO... paperboy" />
+            <marker date="1626944317920" expanded="true" signature="80633:80714" ph="SELECT * FRO... paper_status" />
+            <marker date="1626944317920" expanded="true" signature="80787:80898" ph="UPDATE `pape... " />
+            <marker date="1626944317920" expanded="true" signature="80957:81071" ph="INSERT INTO `paper_status`... " />
+            <marker date="1626944317920" expanded="true" signature="81301:81370" ph="update alloc... " />
+            <marker date="1626944317920" expanded="true" signature="81301:81382" ph="update alloc... " />
+            <marker date="1626944317920" expanded="true" signature="81613:81696" ph="update alloc... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/classifieds/2021_06_27_13_57_27.148916.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/classifieds/2021_06_27_13_59_46.890197.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/classifieds/2021_06_27_14_00_24.028960.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/classifieds/2021_07_22_12_04_50.965736.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/agent_image/SHUT_11.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="1862" column="25" lean-forward="true" selection-start-line="1862" selection-start-column="25" selection-end-line="1862" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1626944317920" expanded="true" signature="434:514" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="2258:2365" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="2579:2637" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="2885:2943" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="3196:3309" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="3513:3568" ph="update login... " />
+            <marker date="1626944317920" expanded="true" signature="3800:3858" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="4112:4243" ph="SELECT provi... provider" />
+            <marker date="1626944317920" expanded="true" signature="4471:4587" ph="SELECT agent... agent" />
+            <marker date="1626944317920" expanded="true" signature="4802:4990" ph="SELECT compl... user" />
+            <marker date="1626944317920" expanded="true" signature="5595:5717" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="5792:5924" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="7979:8060" ph="SELECT * FRO... provider" />
+            <marker date="1626944317920" expanded="true" signature="10582:10657" ph="SELECT * FRO... magazines" />
+            <marker date="1626944317920" expanded="true" signature="10920:10971" ph="SELECT * FRO... magazines" />
+            <marker date="1626944317920" expanded="true" signature="11379:11522" ph="UPDATE magaz... " />
+            <marker date="1626944317920" expanded="true" signature="11792:11841" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="12343:12446" ph="INSERT INTO editions... " />
+            <marker date="1626944317920" expanded="true" signature="13187:13236" ph="SELECT * FRO... editions" />
+            <marker date="1626944317920" expanded="true" signature="13564:13650" ph="UPDATE editi... " />
+            <marker date="1626944317920" expanded="true" signature="13932:13979" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="14261:14335" ph="SELECT * FRO... editions" />
+            <marker date="1626944317920" expanded="true" signature="16611:16747" ph="UPDATE editi... " />
+            <marker date="1626944317920" expanded="true" signature="17036:17094" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="18086:18165" ph="SELECT * FRO... notifications" />
+            <marker date="1626944317920" expanded="true" signature="18443:18503" ph="SELECT * FRO... notifications" />
+            <marker date="1626944317920" expanded="true" signature="18851:18946" ph="UPDATE notif... " />
+            <marker date="1626944317920" expanded="true" signature="19234:19292" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="19581:19658" ph="SELECT * FRO... editions" />
+            <marker date="1626944317920" expanded="true" signature="19931:19995" ph="select * fro... edition_languages" />
+            <marker date="1626944317920" expanded="true" signature="20352:20416" ph="SELECT * FRO... edition_languages" />
+            <marker date="1626944317920" expanded="true" signature="20486:20579" ph="select `edit... editions" />
+            <marker date="1626944317920" expanded="true" signature="21781:21905" ph="SELECT editi... Price" />
+            <marker date="1626944317920" expanded="true" signature="22167:22212" ph="SELECT * FRO... price" />
+            <marker date="1626944317920" expanded="true" signature="22544:22625" ph="UPDATE price... " />
+            <marker date="1626944317920" expanded="true" signature="24141:24218" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="24514:24591" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="25700:25807" ph="UPDATE magaz... " />
+            <marker date="1626944317920" expanded="true" signature="26129:26212" ph="UPDATE magaz... " />
+            <marker date="1626944317920" expanded="true" signature="27169:27240" ph="UPDATE class... " />
+            <marker date="1626944317920" expanded="true" signature="27554:27625" ph="UPDATE class... " />
+            <marker date="1626944317920" expanded="true" signature="29430:29840" ph="SELECT `user... agent" />
+            <marker date="1626944317920" expanded="true" signature="30483:30605" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="30680:30812" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="32101:32188" ph="INSERT INTO login... " />
+            <marker date="1626944317920" expanded="true" signature="32747:32821" ph="SELECT * FRO... agent" />
+            <marker date="1626944317920" expanded="true" signature="33492:33776" ph="UPDATE agent... " />
+            <marker date="1626944317920" expanded="true" signature="34058:34367" ph="UPDATE agent... " />
+            <marker date="1626944317920" expanded="true" signature="34451:34727" ph="UPDATE agent... " />
+            <marker date="1626944317920" expanded="true" signature="34978:35000" ph="SELECT * FRO... provider" />
+            <marker date="1626944317920" expanded="true" signature="35237:35632" ph="SELECT `prov... provider" />
+            <marker date="1626944317920" expanded="true" signature="35883:36043" ph="SELECT `prov... provider" />
+            <marker date="1626944317920" expanded="true" signature="36893:37023" ph="update subsc... " />
+            <marker date="1626944317920" expanded="true" signature="37262:37390" ph="update subsc... " />
+            <marker date="1626944317920" expanded="true" signature="38971:39049" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="39312:39390" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="41236:41320" ph="UPDATE magaz... " />
+            <marker date="1626944317920" expanded="true" signature="41580:41664" ph="UPDATE magaz... " />
+            <marker date="1626944317920" expanded="true" signature="43246:43321" ph="UPDATE `clas... " />
+            <marker date="1626944317920" expanded="true" signature="43580:43654" ph="UPDATE `clas... " />
+            <marker date="1626944317920" expanded="true" signature="47063:47116" ph="SELECT * FRO... complaints" />
+            <marker date="1626944317920" expanded="true" signature="47454:47531" ph="UPDATE compl... " />
+            <marker date="1626944317920" expanded="true" signature="49268:49342" ph="SELECT * FRO... paperboy" />
+            <marker date="1626944317920" expanded="true" signature="49587:49652" ph="SELECT * FRO... paperboy" />
+            <marker date="1626944317920" expanded="true" signature="50215:50402" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="50670:50909" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="50972:51159" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="51350:51394" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="53548:53613" ph="SELECT * FRO... paperboy" />
+            <marker date="1626944317920" expanded="true" signature="53655:53789" ph="select `user... user" />
+            <marker date="1626944317920" expanded="true" signature="54109:54174" ph="SELECT * FRO... paperboy" />
+            <marker date="1626944317920" expanded="true" signature="54216:54350" ph="select `user... user" />
+            <marker date="1626944317920" expanded="true" signature="56966:57088" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="57163:57295" ph="UPDATE login... " />
+            <marker date="1626944317920" expanded="true" signature="58018:58098" ph="SELECT * FRO... login" />
+            <marker date="1626944317920" expanded="true" signature="59134:59212" ph="insert into login... " />
+            <marker date="1626944317920" expanded="true" signature="60158:60234" ph="SELECT `agen... agent" />
+            <marker date="1626944317920" expanded="true" signature="60530:60616" ph="select * fro... subscriber" />
+            <marker date="1626944317920" expanded="true" signature="60841:60931" ph="update subsc... " />
+            <marker date="1626944317920" expanded="true" signature="61002:61101" ph="insert into subscriber... " />
+            <marker date="1626944317920" expanded="true" signature="61343:61477" ph="select agent... agent" />
+            <marker date="1626944317920" expanded="true" signature="62968:62992" ph="SELECT * FRO... provider" />
+            <marker date="1626944317920" expanded="true" signature="63179:63393" ph="SELECT * FRO... magazines" />
+            <marker date="1626944317920" expanded="true" signature="64212:64314" ph="SELECT * FRO... bank" />
+            <marker date="1626944317920" expanded="true" signature="64527:64647" ph="SELECT * FRO... magazine_requests" />
+            <marker date="1626944317920" expanded="true" signature="64947:65092" ph="INSERT INTO `payments`... " />
+            <marker date="1626944317920" expanded="true" signature="65207:65285" ph="update bank " />
+            <marker date="1626944317920" expanded="true" signature="65611:65836" ph="SELECT * FRO... paper_requests" />
+            <marker date="1626944317920" expanded="true" signature="66524:66602" ph="update bank " />
+            <marker date="1626944317920" expanded="true" signature="67608:67715" ph="SELECT * FRO... bank" />
+            <marker date="1626944317920" expanded="true" signature="68103:68240" ph="INSERT INTO `payments`... " />
+            <marker date="1626944317920" expanded="true" signature="68331:68409" ph="update bank " />
+            <marker date="1626944317920" expanded="true" signature="68691:68768" ph="DELETE FROM " />
+            <marker date="1626944317920" expanded="true" signature="69002:69058" ph="SELECT * FRO... magazine_requests" />
+            <marker date="1626944317920" expanded="true" signature="69980:70013" ph="SELECT * FRO... edition_languages" />
+            <marker date="1626944317920" expanded="true" signature="70213:70643" ph="SELECT `edit... edition_languages" />
+            <marker date="1626944317920" expanded="true" signature="72379:72431" ph="SELECT * FRO... classifieds" />
+            <marker date="1626944317920" expanded="true" signature="72761:72886" ph="INSERT INTO complaints... " />
+            <marker date="1626944317920" expanded="true" signature="73161:73243" ph="SELECT * FRO... complaints" />
+            <marker date="1626944317920" expanded="true" signature="73450:73580" ph="SELECT notif... notifications" />
+            <marker date="1626944317920" expanded="true" signature="73922:73977" ph="SELECT * FRO... user_status" />
+            <marker date="1626944317920" expanded="true" signature="74050:74171" ph="UPDATE `user... " />
+            <marker date="1626944317920" expanded="true" signature="74230:74356" ph="INSERT INTO `user_status`... " />
+            <marker date="1626944317920" expanded="true" signature="74641:74697" ph="SELECT * FRO... bank" />
+            <marker date="1626944317920" expanded="true" signature="74932:74979" ph="SELECT * FRO... payments" />
+            <marker date="1626944317920" expanded="true" signature="75268:75465" ph="SELECT * FRO... classifieds" />
+            <marker date="1626944317920" expanded="true" signature="75705:75754" ph="select * fro... user_status" />
+            <marker date="1626944317920" expanded="true" signature="76534:76734" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="77179:77407" ph="UPDATE paper... " />
+            <marker date="1626944317920" expanded="true" signature="79838:79901" ph="SELECT user_... user_status" />
+            <marker date="1626944317920" expanded="true" signature="80138:80193" ph="SELECT * FRO... paperboy" />
+            <marker date="1626944317920" expanded="true" signature="80633:80714" ph="SELECT * FRO... paper_status" />
+            <marker date="1626944317920" expanded="true" signature="80787:80898" ph="UPDATE `pape... " />
+            <marker date="1626944317920" expanded="true" signature="80957:81071" ph="INSERT INTO `paper_status`... " />
+            <marker date="1626944317920" expanded="true" signature="81301:81370" ph="update alloc... " />
+            <marker date="1626944317920" expanded="true" signature="81301:81382" ph="update alloc... " />
+            <marker date="1626944317920" expanded="true" signature="81613:81696" ph="update alloc... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/admin_view_complaints.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

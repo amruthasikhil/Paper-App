@@ -1,0 +1,35 @@
+{% extends "index_admin.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> Approved Agents </h3> <br>
+    </div>
+
+<form id="form1" name="form1" method="post" action="">
+    <table class="table table-bordered">
+
+        <tr>
+            <th> Sl. No </th>
+            <th> Agent Name </th>
+            <th> Place </th>
+            <th> District </th>
+            <th> Pin Code </th>
+            <th> Contact Number </th>
+            <th> Agent Image </th>
+        </tr>
+
+        {% for i in data %}
+            <tr>
+                <td> {{ loop.index }}</td>
+                <td>&nbsp;{{ i["agent_name"]}}</td>
+                <td> {{i["agent_place"]}}</td>
+                <td>&nbsp;{{i["agent_district"]}}</td>
+                <td>&nbsp;{{i["agent_pin"]}}</td>
+                <td> {{ i["agent_contact_number"] }}</td>
+                <td> <img src = "{{i["agent_image"]}}" width="50" height="50" ></td>
+            </tr>
+        {% endfor %}
+    </table>
+</form>
+
+{% endblock %}

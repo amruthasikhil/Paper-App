@@ -1,0 +1,40 @@
+{% extends "index_admin.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> Agent Requests </h3> <br>
+    </div>
+
+<form id="form1" name="form1" method="post" action="">
+    <table class="table table-bordered">
+
+        <tr>
+            <th> Sl. No </th>
+            <th> Agent Name </th>
+            <th> Place </th>
+            <th> District </th>
+            <th> Pin Code </th>
+            <th> Contact Number </th>
+            <th> Agent Image </th>
+            <th> Approve </th>
+            <th> Reject </th>
+        </tr>
+
+        {% for i in data %}
+            <tr>
+                <td> {{loop.index}}</td>
+                <td> {{ i["agent_name"] }}&nbsp;</td>
+                <td>&nbsp;{{ i["agent_place"] }}</td>
+                <td>&nbsp;{{ i["agent_district"] }}</td>
+                <td>&nbsp;{{ i["agent_pin"] }}</td>
+                <td> {{ i["agent_contact_number"] }}</td>
+                <td>&nbsp;<img src = "{{ i["agent_image"]}}" width="50" height="50"></td>
+                <td> <a href = "/agent_approve/{{ i["login_id"] }}" class="btn btn-success"> Approve </a></td>
+                <td> <a href = "/agent_reject/{{ i["login_id"] }}" class="btn btn-danger"> Reject </a></td>
+            </tr>
+        {% endfor %}
+
+    </table>
+</form>
+
+{% endblock %}

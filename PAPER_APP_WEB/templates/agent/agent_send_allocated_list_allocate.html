@@ -1,0 +1,47 @@
+{#agent_send_allocated_list_allocate.html#}
+
+{% extends "index_agent.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> Allocate List </h3> <br>
+    </div>
+
+<form action="/agent_send_allocated_list_allocate_post" method="post" enctype="multipart/form-data" name="form1" id="form1">
+    <table class="table">
+
+        <tr>
+            <td> Subscriber Name </td>
+            <td> <input class="form-control" type="text" name="textfield1" id="t1" value="{{data['user_name']}}"/></td>
+        </tr>
+
+        <tr>
+            <td> Subscriber Address </td>
+            <td> <input class="form-control" type="text" name="textfield2" id="t2" value="{{data['place']}}"/></td>
+        </tr>
+
+{#        <tr>#}
+{#            <td> Request ID </td>#}
+{#            <td> <input class="form-control" type="text" name="textfield3" id="t3" value="{{data['request_id']}}"/></td>#}
+{#        </tr>#}
+
+        <tr>
+            <td> Paperboy Name </td>
+            <td>
+                <select class="form-control" name = "boy" >
+                    {% for i in data1 %}
+                        <option value = "{{ i ['boy_login_id']}}"> {{ i["boy_name"] }} </option>
+                    {% endfor %}
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td> </td>
+            <td> <input class="btn btn-success" type="submit" name="button" id="b1" value="Submit" /> </td>
+        </tr>
+
+    </table>
+</form>
+
+{% endblock %}

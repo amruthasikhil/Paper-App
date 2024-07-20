@@ -1,0 +1,34 @@
+{#provider_magazine_management_view.html#}
+
+{% extends "index_provider.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> View Magazine </h3> <br>
+    </div>
+
+<form id="form1" name="form1" method="post" action="">
+    <table class="table table-bordered">
+        <tr>
+            <th width="84"> Sl. No </th>
+            <th width="234"> Magazine Name </th>
+            <th width="180"> Language </th>
+            <th width="229"> Price </th>
+            <th width="173"> Edit </th>
+            <th width="173"> Delete </th>
+        </tr>
+
+        {% for i in data %}
+            <tr>
+                <td> {{ loop.index }}</td>
+                <td>&nbsp;{{ i["magazine_name"]}}</td>
+                <td> {{i["language"]}}</td>
+                <td> {{i["price"]}}</td>
+                <td> <a href="/provider_magazine_edit/{{ i["magazine_id"] }}" class="btn btn-success"> Edit </a></td>
+                <td> <a href="/provider_magazine_delete/{{ i["magazine_id"] }}" class="btn btn-danger"> Delete </a></td>
+            </tr>
+        {% endfor %}
+
+    </table>
+</form>
+{% endblock %}

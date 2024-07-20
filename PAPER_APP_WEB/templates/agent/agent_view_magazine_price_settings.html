@@ -1,0 +1,32 @@
+{% extends "index_agent.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> Magazines & Price </h3> <br>
+    </div>
+
+<form id="form1" name="form1" method="post" action="">
+    <table class="table table-bordered">
+
+        <tr>
+            <th> Sl.No </th>
+            <th> Provider Name </th>
+            <th> Magazine Name </th>
+            <th> Language </th>
+            <th> Price </th>
+        </tr>
+
+        {% for i in data %}
+            <tr>
+                <td> {{ loop.index }} </td>
+                <td>{{i["provider_name"]}} </td>
+                <td>{{i["magazine_name"]}} </td>
+                <td>{{i["language"]}} </td>
+                <td>{{i["price"]}} </td>
+            </tr>
+        {% endfor %}
+
+  </table>
+</form>
+
+{% endblock %}

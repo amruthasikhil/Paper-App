@@ -1,0 +1,36 @@
+{#agent_view_profile.html#}
+
+{% extends "index_agent.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> Approved Providers </h3> <br>
+    </div>
+
+<form action="" method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <table width="624" height="195" border="1">
+    <tr>
+      <td colspan="2">Image</td>
+    </tr>
+    <tr>
+      <td>Name</td>
+      <td><label for="textfield2"></label></td>
+    </tr>
+    <tr>
+      <td>Contact Number</td>
+      <td><label for="fileField"></label></td>
+    </tr>
+    <tr>
+      <td>Place</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>District</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="2"><div align="center"><a href="#">Edit</a></div></td>
+    </tr>
+  </table>
+</form>
+{% endblock %}

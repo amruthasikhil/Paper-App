@@ -1,0 +1,42 @@
+{#provider_price_edit.html#}
+
+{% extends "index_provider.html" %}
+{%  block body %}
+
+    <div> <h3 class="mt-4"> Approved Providers </h3> </div> <br>
+
+<form id="form1" name="form1" method="post" action="/provider_price_edit_post">
+    <table class="table">
+
+        <tr>
+            <td> Edition </td>
+            <td>
+                <select class="form-control" name="edn" >
+                    <option value = "{{ data1['edition_id']}}"> {{ data1["edition_place"] }} </option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td> Language </td>
+            <td>
+                <select class="form-control" name="lan" >
+                        <option value = "{{ data2['language_id']}}"> {{ data2["edition_language"] }} </option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td> Price Per Month </td>
+            <td> <input class="form-control" type="text" name="pr" id="textfield3" value="{{data3['price'] }}"/> </td>
+        </tr>
+
+        <tr>
+            <td> </td>
+            <td> <input class="btn btn-success" type="submit" name="button" id="register" value="Submit"/> </td>
+        </tr>
+
+    </table>
+</form>
+
+{% endblock %}

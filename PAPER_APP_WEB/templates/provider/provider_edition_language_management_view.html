@@ -1,0 +1,33 @@
+{#provider_edition_language_management_view.html#}
+{% extends "index_provider.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> View Edition Languages </h3> <br>
+    </div>
+
+<form id="form1" name="form1" method="post" action="">
+    <table class="table table-bordered">
+
+        <tr>
+            <th width="84"> Sl. No </th>
+            <th width="234"> Edition </th>
+            <th width="234">  Edition Language </th>
+            <th width="173"> Edit </th>
+            <th width="173"> Delete </th>
+        </tr>
+
+        {% for i in data %}
+            <tr>
+                <td> {{ loop.index }}</td>
+                <td>&nbsp;{{ i["edition_place"]}}</td>
+                <td>&nbsp;{{ i["edition_language"]}}</td>
+                <td> <a href="/provider_edition_language_edit/{{ i["language_id"] }}" class="btn btn-success"> Edit </a></td>
+                <td> <a href="/provider_edition_language_delete/{{ i["language_id"] }}" class="btn btn-danger"> Delete </a></td>
+            </tr>
+        {%  endfor %}
+
+    </table>
+</form>
+
+{% endblock %}

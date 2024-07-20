@@ -1,0 +1,41 @@
+{#agent_view_subscribers.html#}
+
+{% extends "index_agent.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> Subscribers </h3> <br>
+    </div>
+
+<form action="" method="post" enctype="multipart/form-data" name="form1" id="form1">
+    <table class="table table-bordered">
+
+        <tr>
+            <th> Sl.No </th>
+            <th> Subscriber Name </th>
+            <th> Gender </th>
+            <th> Address </th>
+            <th> Phone Number </th>
+            <th> Email Id </th>
+            <th> Image </th>
+        </tr>
+
+        {% for i in data %}
+            <tr>
+                <td> {{ loop.index }}</td>
+                <td> {{ i["user_name"]}}</td>
+                <td> {{ i["gender"] }}</td>
+                <td> {{i["place"]}} <br>
+                    {{i["post"]}} <br>
+                    {{i["district"]}} <br>
+                    {{i["pin"]}}</td>
+                <td> {{i["contact_number"]}}</td>
+                <td> {{i["email_id"]}}</td>
+                <td> <img src = "{{i["user_image"]}}" width="50" height="50"></td>
+            </tr>
+        {% endfor %}
+
+    </table>
+</form>
+
+{% endblock %}

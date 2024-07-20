@@ -1,0 +1,46 @@
+{#agent_view_magazine_request.html#}
+
+{% extends "index_agent.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> Magazine Request </h3> <br>
+    </div>
+
+<form action="" method="post" enctype="multipart/form-data" name="form1" id="form1">
+    <table class="table table-bordered">
+
+        <tr>
+            <th> Sl_No </th>
+            <th> Subscriber Name </th>
+            <th> Address </th>
+            <th> Request Date </th>
+            <th> Provider Name </th>
+            <th> Magazine Name </th>
+            <th> Language </th>
+            <th> Forward To Provider </th>
+            <th> Reject </th>
+        </tr>
+
+        {% for i in data %}
+            <tr>
+                <td>{{loop.index}}</td>
+                <td>{{ i["user_name"] }}&nbsp;</td>
+                <td>{{i["place"]}}<br>
+                    {{i["post"]}}<br>
+                    {{i["district"]}}<br>
+                    Pin: {{i["pin"]}} <br>
+                    Mob: {{i["contact_number"]}}</td>
+                <td>{{ i["request_date"] }}</td>
+                <td>{{ i["provider_name"] }} </td>
+                <td>{{ i["magazine_name"] }}</td>
+                <td>&nbsp;{{ i["language"] }}</td>
+                <td><a href = "/magazine_request_forward/{{ i["magazine_request_id"] }}" class="btn btn-success"> Forward </a></td>
+                <td><a href = "/magazine_request_reject/{{ i["magazine_request_id"] }}" class="btn btn-danger"> Reject </a></td>
+                </tr>
+        {% endfor %}
+
+    </table>
+</form>
+
+{% endblock %}

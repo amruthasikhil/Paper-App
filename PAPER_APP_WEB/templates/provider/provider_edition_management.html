@@ -1,0 +1,24 @@
+{#provider_edition_management.html#}
+{% extends "index_provider.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> Add Edition </h3> <br>
+    </div>
+
+<form id="form1" name="form1" method="post" action="/provider_edition_management_post">
+    <table class="table">
+
+        <tr>
+            <td height="45"> Edition </td>
+            <td> <input class="form-control" type="text" name="textfield1" id="textfield1"/> </td>
+        </tr>
+
+        <tr>
+            <td height="31">&nbsp;</td>
+            <td> <input class="btn btn-success" type="submit" name="register" id="register" value="Submit"/> </td>
+        </tr>
+
+    </table>
+</form>
+{% endblock %}

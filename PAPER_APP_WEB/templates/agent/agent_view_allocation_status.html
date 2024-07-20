@@ -1,0 +1,44 @@
+{% extends "index_agent.html" %}
+{%  block body %}
+
+    <div> <h3 class="mt-4"> Allocation status </h3> </div> <br>
+
+<form action="/agent_view_allocation_status_post" method="post" enctype="multipart/form-data" name="form1" id="form1">
+
+    <table>
+        <tr>
+            <td>
+                <select class="form-control" name="select" id="select2">
+                    <option> Magazine </option>
+                    <option> Newspaper </option>
+                </select>
+            </td>
+            <td> <input class="btn btn-primary" type="submit" name="button" id="button" value="Search" /> </td>
+        </tr>
+    </table>
+
+    <table class="table table-bordered">
+        <tr>
+            <th> Sl_No</th>
+            <th> User Details</th>
+            <th> Allocated Date</th>
+            <th> Newspaper/Magazine</th>
+            <th> PaperBoy Details</th>
+            <th> Status</th>
+        </tr>
+
+        {% for i in data %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td>&nbsp;{{ i["user_name"]}} </td>
+                <td>{{ i["allocated_date"] }}</td>
+                <td>{{ i["type"] }}</td>
+                <td>{{ i["boy_name"] }}</td>
+                <td>{{ i["status"] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+</form>
+
+{% endblock %}

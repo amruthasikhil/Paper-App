@@ -1,0 +1,47 @@
+{#agent_add_paperboy.html#}
+
+{% extends "index_agent.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> Add Paperboy </h3> <br>
+    </div>
+
+<form action="/agent_add_paperboy_post" method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <table class="table">
+
+      <tr>
+          <td> Name </td>
+          <td> <input class="form-control" type="text" name="textfield1" id="textfield1" /></td>
+      </tr>
+
+      <tr>
+          <td> Place </td>
+          <td> <input class="form-control" type="text" name="textfield2" id="textfield2" /></td>
+      </tr>
+
+      <tr>
+          <td> Contact Number </td>
+          <td> <input class="form-control" type="text" name="textfield3" id="textfield3" /></td>
+      </tr>
+
+      <tr>
+          <td> Email ID </td>
+          <td> <input class="form-control" type="text" name="textfield4" id="textfield4" /></td>
+      </tr>
+
+      <tr>
+          <td> Image </td>
+          <td> <input class="form-control" type="file" name="filefield1" id="filefield1" /></td>
+      </tr>
+
+      <tr>
+          <td colspan="2"><div align="center">
+              <input class="btn btn-success" type="submit" name="button" id="button" value="Submit" />
+          </div></td>
+      </tr>
+
+  </table>
+</form>
+
+{% endblock %}

@@ -1,0 +1,31 @@
+{#agent_sent_complaint_replay.html#}
+
+{% extends "index_agent.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> Approved Providers </h3> <br>
+    </div>
+
+<form id="form1" name="form1" method="post" action="/agent_sent_complaint_replay_post">
+    <table class="table">
+
+        <tr>
+            <td> Complaints </td>
+            <td> <label for="textfield1"></label> {{ data['complaint']}} </td>
+        </tr>
+
+        <tr>
+            <td> Replay </td>
+            <td><label for="textfield2"></label> <input class="form-control" type="text" name="textfield2" id="textfield2" value="{{ data['replay']}}"/></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><input class="btn btn-success" type="submit" name="Send" id="button" value="Send" /></td>
+        </tr>
+
+    </table>
+</form>
+
+{% endblock %}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.newspaper_tracking_system">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/newspaper"
+        android:label="PAPerAPP"
+        android:roundIcon="@drawable/newspaper"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Paperboy_duties"></activity>
+        <activity android:name=".Update_status" />
+        <activity android:name=".View_my_agents" />
+        <activity android:name=".View_agent_subscription_status" />
+        <activity android:name=".view_allocated_requests" />
+        <activity android:name=".View_profile_paperboy" />
+        <activity
+            android:name=".Paperboy_home"
+            android:label="@string/title_activity_paperboy_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".view_payment_history" />
+        <activity android:name=".view_notification" />
+        <activity android:name=".View_complaints" />
+        <activity android:name=".add_my_classifieds" />
+        <activity android:name=".view_my_classified_request" />
+        <activity android:name=".Payment" />
+        <activity android:name=".view_newspaper_requests" />
+        <activity android:name=".view_newspaper" />
+        <activity android:name=".view_magazine_request" />
+        <activity android:name=".View_Magazine" />
+        <activity android:name=".Reply" />
+        <activity android:name=".Complaint" />
+        <activity
+            android:name=".UHOME"
+            android:label="@string/title_activity_uhome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".View_providers" />
+        <activity android:name=".view_agent" />
+        <activity android:name=".registration" />
+        <activity android:name=".login" />
+
+        <service android:name=".LocationService" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

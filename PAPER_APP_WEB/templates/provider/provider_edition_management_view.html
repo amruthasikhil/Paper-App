@@ -1,0 +1,31 @@
+{#provider_edition_management_view.html#}
+
+{% extends "index_provider.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> View Editions </h3> <br>
+    </div>
+
+<form id="form1" name="form1" method="post" action="">
+    <table class="table table-bordered">
+
+        <tr>
+            <th> Sl. No </th>
+            <th> Edition </th>
+            <th> Edit </th>
+            <th> Delete </th>
+        </tr>
+
+        {% for i in data %}
+            <tr>
+                <td> {{ loop.index }}</td>
+                <td> {{ i["edition_place"]}}</td>
+                <td> <a href="/provider_edition_edit/{{ i["edition_id"] }}" class="btn btn-success"> Edit </a></td>
+                <td> <a href="/provider_edition_delete/{{ i["edition_id"] }}" class="btn btn-danger"> Delete </a></td>
+            </tr>
+        {%  endfor %}
+
+  </table>
+</form>
+{% endblock %}

@@ -1,0 +1,26 @@
+{#provider_notification_edit.html#}
+
+{% extends "index_provider.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> Approved Providers </h3> <br>
+    </div>
+
+<form id="form1" name="form1" method="post" action="/provider_notification_edit_post">
+    <table class="table">
+
+        <tr>
+            <td> Notification </td>
+            <td> <input class="form-control" type="text" name="textfield1" id="textfield1" value="{{data['notification'] }}"/> </td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td> <input class="btn btn-success" type="submit" name="register" id="register" value="Submit"/> </td>
+        </tr>
+
+    </table>
+</form>
+
+{% endblock %}

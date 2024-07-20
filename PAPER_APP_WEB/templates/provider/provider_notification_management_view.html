@@ -1,0 +1,32 @@
+{#provider_notification_management_view.html#}
+
+{% extends "index_provider.html" %}
+{%  block body %}
+
+    <div> <h3 class="mt-4"> View Notification </h3> </div> <br>
+
+<form id="form1" name="form1" method="post" action="">
+    <table class="table table-bordered">
+
+        <tr>
+            <th> Sl.No</th>
+            <th> Notification </th>
+            <th> Date </th>
+            <th> Edit </th>
+            <th> Delete </th>
+        </tr>
+
+        {% for i in data %}
+            <tr>
+                <td> {{ loop.index }}</td>
+                <td> {{ i["notification"]}}</td>
+                <td> {{ i["date"] }}</td>
+                <td> <a href="/provider_notification_edit/{{ i["notification_id"] }}" class="btn btn-success"> Edit </a></td>
+                <td> <a href="/provider_notification_delete/{{ i["notification_id"] }}" class="btn btn-danger"> Delete </a></td>
+            </tr>
+        {% endfor %}
+
+    </table>
+</form>
+
+{% endblock %}

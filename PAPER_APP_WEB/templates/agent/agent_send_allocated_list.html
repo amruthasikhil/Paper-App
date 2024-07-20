@@ -1,0 +1,69 @@
+{#agent_send_allocated_list.html#}
+
+{% extends "index_agent.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> Send Allocated List To Paperboy </h3> <br>
+    </div>
+
+<form id="form1" name="form1" method="post" action="/agent_send_allocated_list_post">
+
+    <table class="table">
+        <tr>
+            <td>
+                <select class="form-control" name="product">
+                    <option value="Magazine"> Magazine </option>
+                    <option value="Newspaper"> Newspaper </option>
+                </select>
+            </td>
+            <td> <input class="btn btn-primary" type="submit" value="search"> </td>
+        </tr>
+    </table>
+
+    <table class="table table-bordered">
+
+         <tr>
+            <th> Sl.no </th>
+            <th> Subscriber Name </th>
+            <th> Subscriber Address </th>
+            <th> Provider Name </th>
+            <th> Language </th>
+            <th> Allocate </th>
+        </tr>
+
+        {% for i in data %}
+
+            {% if ty=="Magazine" %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td> {{ i["user_name"]}} </td>
+                <td>{{ i["place"] }} <br>
+                    {{ i["district"] }}</td>
+                <td>{{ i["provider_name"] }}</td>
+                <td>{{ i["language"] }} {{ i["edition_language"] }} </td>
+                <td> <a href="/agent_send_allocated_list_allocate/{{ i["subscriber_id"] }}/{{ i['magazine_request_id'] }}" class="btn btn-success"> Allocate </a></td>
+            </tr>
+            {% endif %}
+
+             {% if ty=="Newspaper" %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td> {{ i["user_name"]}} </td>
+                <td>{{ i["place"] }} <br>
+                    {{ i["district"] }}</td>
+                <td>{{ i["provider_name"] }}</td>
+                <td>{{ i["language"] }} {{ i["edition_language"] }} </td>
+                <td> <a href="/agent_send_allocated_list_allocate2/{{ i["subscriber_id"] }}/{{ i['paper_request_id'] }}" class="btn btn-success"> Allocate </a></td>
+            </tr>
+            {% endif %}
+
+
+
+
+        {% endfor %}
+
+    </table>
+</form>
+
+{% endblock %}

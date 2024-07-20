@@ -1,0 +1,38 @@
+{#provider_agent_forwarded_classifieds_request.html#}
+{% extends "index_provider.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> Classifieds Request </h3> <br>
+    </div>
+
+<form id="form1" name="form1" method="post" action="">
+    <table class="table table-bordered">
+
+        <tr>
+            <th> Sl_No </th>
+            <th> Subscriber Name </th>
+            <th> News File </th>
+            <th> Description </th>
+            <th> Request Date </th>
+            <th> Agent Name </th>
+            <th> Approve </th>
+            <th> Reject </th>
+        </tr>
+
+        {% for i in data %}
+            <tr>
+                <td> {{ loop.index }}</td>
+                <td> {{ i["user_name"]}}</td>
+                <td> {{ i["news_file"]}}</td>
+                <td> {{ i["description"]}}</td>
+                <td> {{ i["date"]}}</td>
+                <td> {{ i["agent_name"]}}</td>
+                <td> <a href = "/provider_approve_classifieds_request/{{ i["classified_id"] }}" class="btn btn-success"> Approve </a></td>
+                <td> <a href = "/provider_reject_classifieds_request/{{ i["classified_id"] }}" class="btn btn-danger"> Reject </a></td>
+            </tr>
+        {% endfor %}
+
+    </table>
+</form>
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends "index_agent.html" %}
+{%  block body %}
+
+    <div> <h3 class="mt-4"> User Status </h3> <br> </div>
+
+<form id="form1" name="form1" method="post" action="">
+    <table class="table table-bordered">
+
+        <tr>
+            <th> Sl.No </th>
+            <th> Subscriber Name </th>
+            <th> Address </th>
+            <th> Contact Number </th>
+            <th> Date </th>
+            <th> Status </th>
+        </tr>
+
+        {% for i in data %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td>&nbsp;{{ i["user_name"]}}</td>
+                <td>&nbsp;{{ i["place"]}} <br>
+                    {{ i["post"]}} <br>
+                    {{ i["district"]}} <br>
+                    - {{ i["pin"]}} </td>
+                <td>&nbsp;{{ i["contact_number"]}}</td>
+                <td>{{ i["from_date"] }}-{{ i["to_date"] }}</td>
+                <td>{{i["status"]}}</td>
+            </tr>
+        {% endfor %}
+
+    </table>
+</form>
+
+{% endblock %}

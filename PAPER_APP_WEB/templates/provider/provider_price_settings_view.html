@@ -1,0 +1,32 @@
+{% extends "index_provider.html" %}
+{%  block body %}
+
+    <div> <h3 class="mt-4"> View Newspaper Price </h3> </div> <br>
+
+<form id="form1" name="form1" method="post" action="">
+    <table class="table table-bordered">
+
+        <tr>
+            <th> Sl.No </th>
+            <th> Edition </th>
+            <th> Language </th>
+            <th> Price </th>
+            <th> Edit </th>
+            <th> Delete </th>
+        </tr>
+
+        {% for i in data %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td>{{ i["place"]}}</td>
+                <td>{{ i["edition_language"] }}</td>
+                <td>{{ i["price"] }}</td>
+                <td> <a href="/provider_price_edit/{{ i["price_id"] }}" class="btn btn-success"> Edit </a></td>
+                <td> <a href="/provider_price_delete/{{ i["price_id"] }}" class="btn btn-danger"> Delete </a></td>
+            </tr>
+        {% endfor %}
+
+    </table>
+</form>
+
+{% endblock %}

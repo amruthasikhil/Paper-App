@@ -1,0 +1,49 @@
+{% extends "index_agent.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> Approved Providers </h3> <br>
+    </div>
+
+<form action="/agent_view_paperboy_edit_post" method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <table class="table">
+
+       <tr>
+          <td> Profile Image </td>
+          <td> <img src="{{ data["boy_image"]}}" width="100" height="100"> </td>
+      </tr>
+
+      <tr>
+          <td> Name </td>
+          <td> <input class="form-control" type="text" name="textfield1" id="textfield1" value="{{ data['boy_name']}}" /></td>
+      </tr>
+
+      <tr>
+          <td> Place </td>
+          <td> <input class="form-control" type="text" name="textfield2" id="textfield2" value="{{ data['boy_place']}}" /></td>
+      </tr>
+
+      <tr>
+          <td> Contact Number </td>
+          <td> <input class="form-control" type="text" name="textfield3" id="textfield3" value="{{ data['boy_contact_number']}}" /></td>
+      </tr>
+
+      <tr>
+          <td> Email ID </td>
+          <td> <input class="form-control" type="text" name="textfield4" id="textfield4" value="{{ data['boy_email_id']}}" /></td>
+      </tr>
+
+      <tr>
+          <td> New Image </td>
+          <td> <input class="form-control" type="file" name="filefield1" id="filefield1" value="{{ data['boy_image']}}" /></td>
+      </tr>
+
+      <tr>
+          <td> </td>
+          <td> <input class="btn btn-success" type="submit" name="button" id="button" value="Submit" /> </td>
+      </tr>
+
+  </table>
+</form>
+
+{% endblock %}

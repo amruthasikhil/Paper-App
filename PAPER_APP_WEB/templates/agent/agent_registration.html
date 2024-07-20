@@ -1,0 +1,66 @@
+{% extends "index_agent.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> Approved Providers </h3> <br>
+    </div>
+
+<form action="agent_registration_post" method="post" enctype="multipart/form-data" name="form1" id="form1">
+
+    <table width="624" height="195" border="1">
+
+        <tr>
+            <td> Name </td>
+            <td><label for="textfield1"></label> <input type="text" name="textfield1" id="textfield1" /></td>
+        </tr>
+
+        <tr>
+            <td> Place </td>
+            <td><label for="textfield2"></label> <input type="text" name="textfield2" id="textfield2" /></td>
+        </tr>
+
+        <tr>
+            <td> District </td>
+            <td><label for="select"></label>
+                <select name="select" id="select">
+                    <option value="kozhikode"> Kozhikode </option>
+                    <option value="Malappuram"> malappuram </option>
+                    <option value="kannur"> Kannur </option>
+                    <option value="trissur"> Trissur </option>
+                    <option value="wayanad"> Wayanad </option>
+                    <option value="palakad"> Palakad </option>
+                    <option value="kollam"> Kollam </option>
+                    <option value="alapuzha"> Alapuzha </option>
+                    <option value="kotayam"> Kotayam </option>
+                    <option value="iduki"> Iduki </option>
+                    <option value="pathanamthitta"> Pathanamthitta </option>
+                    <option value="kasarkod"> Kasarkod </option>
+                    <option value="thiruvanandhapuram"> Thiruvanandhapuram </option>
+                    <option value="ernakulam"> Ernakulam </option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td> Pin Code </td>
+            <td><label for="textfield4"></label> <input type="text" name="textfield4" id="textfield4" /></td>
+        </tr>
+
+        <tr>
+            <td> Contact Number </td>
+            <td><label for="textfield5"></label> <input type="text" name="textfield5" id="textfield5" /></td>
+        </tr>
+
+        <tr>
+            <td> Image </td>
+            <td><label for="fileField"></label> <input type="file" name="fileField" id="fileField" /></td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <div align="center"><input type="submit" name="Submit" id="Submit" value="Submit" /></div>
+            </td>
+        </tr>
+    </table>
+</form>
+{% endblock %}

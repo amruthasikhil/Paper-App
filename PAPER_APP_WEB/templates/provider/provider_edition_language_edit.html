@@ -1,0 +1,37 @@
+{#provider_edition_language_edit.html#}
+{% extends "index_provider.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> Approved Providers </h3> <br>
+    </div>
+
+<form id="form1" name="form1" method="post" action="/provider_edition_language_edit_post">
+    <table class="table">
+
+        <tr>
+            <td> Edition </td>
+            <td>
+                <select class="form-control" name = "edition" >
+                    <option value = "{{ data ['eid']}}"> {{ data["edition_place"] }} </option>
+                    {% for i in data1 %}
+                        <option value = "{{ i ['edition_id']}}"> {{ i["edition_place"] }} </option>
+                    {% endfor %}
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td> Edition Language </td>
+            <td> <input class="form-control" type="text" name="textfield2" id="textfield2" value="{{data['edition_language']}}"/></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td> <input class="btn btn-success" type="submit" name="register" id="register" value="Submit" /> </td>
+        </tr>
+
+    </table>
+</form>
+
+{% endblock %}

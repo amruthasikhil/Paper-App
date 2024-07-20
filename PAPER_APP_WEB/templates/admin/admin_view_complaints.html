@@ -1,0 +1,37 @@
+{% extends "index_admin.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> View Complaints </h3> <br>
+    </div>
+
+<form id="form1" name="form1" method="post" action="">
+    <table class="table table-bordered">
+        <tr>
+            <th> Sl No </th>
+            <th> Date </th>
+            <th> Subscriber Name </th>
+            <th> Address </th>
+            <th> Complaint </th>
+            <th> Replay </th>
+            <th> Agent Name </th>
+        </tr>
+
+        {% for i in data %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td>&nbsp;{{ i["date"]}}</td>
+                <td>{{ i["user_name"] }}</td>
+                <td> {{i["place"]}} <br>
+                    {{i["post"]}} <br>
+                    {{i["district"]}} <br>
+                <td>{{i["complaint"]}}</td>
+                <td>{{i["replay"]}}</td>
+                <td>{{i["agent_name"]}}</td>
+            </tr>
+        {% endfor %}
+
+  </table>
+</form>
+
+{% endblock %}

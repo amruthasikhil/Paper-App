@@ -1,0 +1,45 @@
+{#provider_view_payment_informations.html#}
+
+{% extends "index_provider.html" %}
+{%  block body %}
+
+    <div> <h3 class="mt-4"> Payment Informations </h3> </div> <br>
+
+<form id="form1" name="form1" method="post" action="/provider_view_payment_informations_search">
+
+    <table>
+        <tr>
+            <td><select name="cont">
+            <option>Magazine</option>
+            <option>Newspaper</option>
+            <option>Classified</option> </select>
+            </td>
+            <td><input type="submit" value="search"></td>
+        </tr>
+    </table>
+
+</form>
+
+    <table class="table table-bordered">
+
+        <tr>
+            <th> Sl No </th>
+            <th> Subscriber Name </th>
+            <th> Amount </th>
+            <th> Date </th>
+            <th> Agent Name </th>
+        </tr>
+
+        {% for i in data %}
+            <tr>
+                <td> {{ loop.index }}</td>
+                <td>&nbsp;{{ i["user_name"]}}</td>
+                <td>&nbsp;{{ i["amount"]}}</td>
+                <td>&nbsp;{{ i["date"]}}</td>
+                <td>&nbsp;{{ i["agent_name"]}}</td>
+            </tr>
+        {% endfor %}
+
+    </table>
+
+{% endblock %}

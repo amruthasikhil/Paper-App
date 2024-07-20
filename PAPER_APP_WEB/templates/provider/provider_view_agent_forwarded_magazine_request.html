@@ -1,0 +1,39 @@
+{% extends "index_provider.html" %}
+{%  block body %}
+
+    <div> <h3 class="mt-4"> Magazine Requests </h3> </div> <br>
+
+<form id="form1" name="form1" method="post" action="">
+    <table class="table table-bordered">
+
+        <tr>
+            <th> Sl.No </th>
+            <th> Subscriber Name </th>
+            <th> Magazine </th>
+            <th> Language </th>
+            <th> Request Date </th>
+            <th> Start Date </th>
+            <th> Agent Name </th>
+            <th> Approve </th>
+            <th> Reject </th>
+        </tr>
+
+        {% for i in data %}
+            <tr>
+                <td> {{ loop.index }}</td>
+                <td> {{ i["user_name"]}}</td>
+                <td> {{ i["magazine_name"]}}</td>
+                <td> {{ i["language"]}}</td>
+                <td> {{ i["request_date"] }}</td>
+                <td> {{ i["start_date"] }}</td>
+                <td> {{ i["agent_name"] }}</td>
+                <td><a href = "/provider_approve_magazine_request/{{ i["magazine_request_id"] }}" class="btn btn-success"> Approve </a></td>
+                <td><a href = "/provider_reject_magazine_request/{{ i["magazine_request_id"] }}" class="btn btn-danger"> Reject </a></td>
+            </tr>
+        {% endfor %}
+
+    </table>
+</form>
+
+{% endblock %}
+

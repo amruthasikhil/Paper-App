@@ -1,0 +1,44 @@
+{% extends "index_agent.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> Classifieds Request </h3> <br>
+    </div>
+
+<form action="" method="post" enctype="multipart/form-data" name="form1" id="form1">
+    <table class="table table-bordered">
+        <tr>
+            <th> Sl_No </th>
+            <th> Subscriber Name </th>
+            <th> Address </th>
+            <th> Provider Name </th>
+            <th> Request Date </th>
+            <th> Classifieds News FIle </th>
+            <th> Classifieds Description </th>
+            <th> Forward </th>
+            <th> Reject </th>
+        </tr>
+
+        {% for i in data %}
+            <tr>
+                <td> {{ loop.index }} </td>
+                <td>&nbsp;{{ i["user_name"]}} </td>
+                <td> {{i["place"]}} <br>
+                    {{i["post"]}} <br>
+                    {{i["district"]}} <br>
+                    {{i["pin"]}} <br>
+                    Email: {{i["email_id"]}} <br>
+                    Contact No: {{i["contact_number"]}}</td>
+                <td>{{i["provider_name"]}} </td>
+                <td>{{i["date"]}}</td>
+                <td>{{i["news_file"]}}</td>
+                <td>{{ i["description"] }}</td>
+                <td><a href = "/classifieds_forward/{{ i["classified_id"] }}" class="btn btn-success"> Forward </a></td>
+                <td><a href = "/classifieds_reject/{{ i["classified_id"] }}" class="btn btn-danger"> Reject </a></td>
+            </tr>
+        {% endfor %}
+
+  </table>
+</form>
+
+{% endblock %}

@@ -1,0 +1,45 @@
+{#agent_view_subscribers_request.html#}
+
+{% extends "index_agent.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> Subscribers Request </h3> <br>
+    </div>
+
+<form action="" method="post" enctype="multipart/form-data" name="form1" id="form1">
+    <table class="table table-bordered">
+
+        <tr>
+            <th> Sl_No </th>
+            <th> Subscriber Name </th>
+            <th> Gender </th>
+            <th> Address </th>
+            <th> Contact Number </th>
+            <th> Email ID </th>
+            <th> Profile Picture </th>
+            <th> Approve </th>
+            <th> Reject </th>
+        </tr>
+
+        {% for i in data %}
+            <tr>
+                <td>{{loop.index}}</td>
+                <td>{{ i["user_name"] }}&nbsp;</td>
+                <td> {{ i["gender"] }}</td>
+                <td>{{i["place"]}}<br>
+                    {{i["post"]}}<br>
+                    {{i["district"]}}<br>
+                    {{i["pin"]}} </td>
+                <td> {{ i["contact_number"] }}</td>
+                <td> {{ i["email_id"]}}</td>
+                <td>&nbsp;<img src = "{{ i["user_image"]}}" width="50" height="50"></td>
+                <td><a href = "/subscriber_approve/{{ i["login_id"] }}" class="btn btn-success"> Approve </a></td>
+                <td><a href = "/subscriber_reject/{{ i["login_id"] }}" class="btn btn-danger"> Reject </a></td>
+            </tr>
+        {% endfor %}
+
+    </table>
+</form>
+
+{% endblock %}

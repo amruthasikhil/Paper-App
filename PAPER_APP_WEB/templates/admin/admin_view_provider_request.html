@@ -1,0 +1,39 @@
+{% extends "index_admin.html" %}
+{%  block body %}
+
+    <div>
+        <h3 class="mt-4"> Provider Requests </h3> <br>
+    </div>
+
+<form id="form1" name="form1" method="post" action="">
+    <table class="table table-bordered">
+        <tr>
+            <th> Sl.No </th>
+            <th> Provider Name </th>
+            <th> Place </th>
+            <th> Pin Code </th>
+            <th> Contact Number </th>
+            <th> Email ID </th>
+            <th> Provider Logo </th>
+            <th> Approve </th>
+            <th> Reject </th>
+        </tr>
+
+        {% for i in data %}
+            <tr>
+                <td>{{loop.index}}</td>
+                <td>{{ i["provider_name"] }}&nbsp;</td>
+                <td>&nbsp;{{ i["place"] }}</td>
+                <td>&nbsp;{{ i["pin"] }}</td>
+                <td>{{ i["phone"] }}</td>
+                <td>{{ i["email_id"] }}</td>
+                <td>&nbsp;<img src="{{ i["provider_logo"]}}" width="50" height="50"></td>
+                <td><a href="/provider_approve/{{ i["login_id"] }}" class="btn btn-success"> Approve </a></td>
+                <td><a href="/provider_reject/{{ i["login_id"] }}" class="btn btn-danger"> Reject </a></td>
+            </tr>
+        {% endfor %}
+
+    </table>
+</form>
+
+{% endblock %}
